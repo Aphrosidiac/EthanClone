@@ -10,3 +10,6 @@ docs/reference/*/fonts/
 docs/reference/fetch-images.log
 public/img/
 .DS_Store
+docs/qa/shots/
+docs/reference/*/shots/
+docs/qa/tokens/
