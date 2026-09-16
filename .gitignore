@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.astro/
+docs/reference/*/raw/
+docs/reference/*/astro/
+docs/reference/*/pretty/
+docs/reference/*/split/
+docs/reference/*/inline/
+docs/reference/*/fonts/
+docs/reference/fetch-images.log
+public/img/
+.DS_Store

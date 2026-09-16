@@ -1,0 +1,675 @@
+[
+ {
+  "slug": "404",
+  "path": "/404",
+  "title": "Not found \u00b7 FF Dev Studio",
+  "description": "Documentary wedding, editorial, portrait and commercial photography by FF of FF Dev Studio. Based in Washington DC and New York, available worldwide.",
+  "robots": "noindex, nofollow",
+  "ogImage": "https://ffdev.studio/og-image.jpg",
+  "cursor": "none",
+  "navTheme": "light",
+  "hasNav": false,
+  "menu": false,
+  "back": null,
+  "ctaPhone": false,
+  "dockActive": "",
+  "pageCss": [],
+  "inlineStyles": [
+   ".nf[data-astro-cid-zetdm5md]{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:26px;padding:120px 22px 60px}.nf[data-astro-cid-zetdm5md] h1[data-astro-cid-zetdm5md]{font-size:clamp(38px,6.4vw,96px);line-height:1.05;color:#1c1813;max-width:18ch}.nf-back[data-astro-cid-zetdm5md]{font-size:var(--lab-nav);letter-spacing:.18em;color:#1c1813;border-bottom:1px solid rgba(28,24,19,.4);padding-bottom:4px;transition:color .3s}.nf-back[data-astro-cid-zetdm5md]:hover{color:var(--red)}\n"
+  ],
+  "scripts": [
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "about",
+  "path": "/about",
+  "title": "About \u00b7 FF Dev \u00b7 Wedding & Editorial Photographer, Washington DC & New York",
+  "description": "About FF of FF Dev Studio: documentary wedding and editorial photographer known for a film-inspired, vintage look. Washington DC and New York, available nationwide.",
+  "robots": "",
+  "ogImage": "https://ffdev.studio/og-image.jpg",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "about",
+  "pageCss": [
+   "about.Dm_ZDSpO.css"
+  ],
+  "inlineStyles": [],
+  "scripts": [
+   "about.astro_astro_type_script_index_0_lang.dN_ixgYV.js",
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "commercial-photographer-dc",
+  "path": "/commercial-photographer-dc",
+  "title": "Commercial & Brand Photographer, Washington DC \u00b7 FF Dev",
+  "description": "Commercial and brand photographer in Washington DC. Product, hospitality, food and campaign work with a film-inspired editorial eye, from FF Dev. Available nationwide.",
+  "robots": "",
+  "ogImage": "/img/commercial/rooftop-pool-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "",
+  "pageCss": [
+   "commercial-photographer-dc.m0j07Yo3.css"
+  ],
+  "inlineStyles": [],
+  "scripts": [
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": [
+   "const c=new IntersectionObserver(o=>o.forEach(e=>{e.isInters"
+  ]
+ },
+ {
+  "slug": "commercial",
+  "path": "/commercial",
+  "title": "Commercial \u00b7 FF Dev \u00b7 Food, Product, Hospitality & Brand Photography, Washington DC & New York",
+  "description": "Commercial photography by FF Dev: food and beverage, product, hospitality and brand campaign work photographed with an editorial eye. Washington DC, New York, available nationwide.",
+  "robots": "",
+  "ogImage": "/img/commercial/rooftop-pool-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "galleries",
+  "pageCss": [
+   "commercial.dn0uc9ku.css"
+  ],
+  "inlineStyles": [
+   "\n      [data-hero] { opacity: 1 !important; }\n    ",
+   ".com-kicker{font-size:var(--lab-quiet);color:#faf7f0d9;margin-top:18px}.com-plate{padding:clamp(70px,12vh,130px) 28px clamp(20px,4vh,50px);max-width:1560px;margin:0 auto}.com-plate:first-of-type{padding-top:clamp(90px,15vh,160px)}.com-label{border-top:1px solid rgba(36,26,16,.14);padding-top:18px}.com-name{font-size:var(--lab);color:#241a10}.com-sub{font-size:var(--lab);color:#9a8f7c;margin-top:4px}.com-kanji{font-family:Cormorant,serif;text-transform:none;letter-spacing:normal;font-weight:400;font-size:13px;color:#6a6154;margin-left:10px}.com-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4vw;margin-top:clamp(24px,4vh,44px)}.com-item{aspect-ratio:4/5;overflow:hidden}.com-item img{width:100%;height:100%;object-fit:cover;display:block;background:#ddd8cc;transition:opacity .3s ease}.com-item img:hover{opacity:.92}.com-item--wide{grid-column:span 2;aspect-ratio:18/11}.com-grid--two{grid-template-columns:1fr 1fr}.com-grid--one .com-item{grid-column:2}@media(max-width:700px){.com-grid,.com-grid--two{grid-template-columns:1fr;gap:12px}.com-item--wide{grid-column:auto;aspect-ratio:4/5}.com-grid--one .com-item{grid-column:auto}}.com-more-in{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}.com-rest{display:grid;grid-template-rows:0fr;margin-top:0;transition:grid-template-rows .62s cubic-bezier(.22,1,.36,1),margin-top .62s cubic-bezier(.22,1,.36,1)}.com-more-in:checked~.com-rest{grid-template-rows:1fr;margin-top:1.4vw}.com-rest>.com-grid{overflow:hidden;min-height:0}.com-grid--more{margin-top:0}.com-rest .com-item{opacity:0;transform:translateY(14px);transition:opacity .3s ease,transform .3s cubic-bezier(.22,1,.36,1)}.com-more-in:checked~.com-rest .com-item{opacity:1;transform:none;transition:opacity .52s ease .12s,transform .62s cubic-bezier(.22,1,.36,1) .12s}.com-more{display:inline-flex;align-items:center;gap:10px;min-height:44px;margin-top:clamp(14px,2vh,22px);font-size:var(--lab-quiet);color:#9a8f7c;cursor:pointer;transition:color .3s ease}.com-more:hover{color:#241a10}.com-more-in:focus-visible~.com-more{outline:1px solid #241a10;outline-offset:8px}.com-more-in:not(:checked)~.com-more .com-more-shut{display:none}.com-more-in:checked~.com-more .com-more-open{display:none}.com-more-mark{width:6px;height:6px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .3s ease}.com-more-in:checked~.com-more .com-more-mark{transform:translateY(1px) rotate(-135deg)}.com-item img{cursor:zoom-in}@media(max-width:700px){.com-more-in:checked~.com-rest{margin-top:12px}}@media(prefers-reduced-motion:reduce){.com-more,.com-more-mark,.com-rest,.com-rest .com-item,.com-more-in:checked~.com-rest,.com-more-in:checked~.com-rest .com-item{transition:none}.com-rest .com-item{transform:none}}\n"
+  ],
+  "scripts": [
+   "commercial.astro_astro_type_script_index_0_lang.D446_iaU.js",
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "contact",
+  "path": "/contact",
+  "title": "Contact & Inquiries \u00b7 FF Dev \u00b7 Wedding & Editorial Photographer, Washington DC & New York",
+  "description": "Inquire with FF Dev about weddings, editorial, portrait and commercial photography. Based in Washington DC and New York, available nationwide.",
+  "robots": "",
+  "ogImage": "https://ffdev.studio/og-image.jpg",
+  "cursor": "menu",
+  "navTheme": "light",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": true,
+  "dockActive": "inquire",
+  "pageCss": [],
+  "inlineStyles": [
+   ".cr[data-astro-cid-wcoxe63l]{padding:clamp(46px,8vh,96px) 0 clamp(10px,2vh,24px);width:100%}.cr-rule[data-astro-cid-wcoxe63l]{max-width:1360px;margin:0 auto clamp(26px,4vh,44px);height:1px;background:#241a1024}.cr-kick[data-astro-cid-wcoxe63l],.cr-head[data-astro-cid-wcoxe63l]{max-width:1360px;margin-inline:auto;color:#9a8f7c}.cr-kick[data-astro-cid-wcoxe63l]{font-size:var(--lab);letter-spacing:.18em;margin-bottom:clamp(26px,4vh,46px)}.cr-head[data-astro-cid-wcoxe63l]{font-size:var(--lab-quiet);letter-spacing:.18em;font-weight:400;margin-bottom:clamp(10px,1.6vh,16px)}.cr-band[data-astro-cid-wcoxe63l]+.cr-band[data-astro-cid-wcoxe63l]{margin-top:clamp(30px,5vh,58px)}.cr-marquee[data-astro-cid-wcoxe63l]{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}.cr-track[data-astro-cid-wcoxe63l]{display:flex;width:max-content;animation:cr-run 46s linear infinite}.cr-track--r[data-astro-cid-wcoxe63l]{animation-direction:reverse}@keyframes cr-run{to{transform:translate(-50%)}}.cr-marquee[data-astro-cid-wcoxe63l]:hover .cr-track[data-astro-cid-wcoxe63l],.cr-track[data-astro-cid-wcoxe63l]:focus-within{animation-play-state:paused}.cr-cell[data-astro-cid-wcoxe63l]{display:inline-flex;align-items:center;flex:none}.cr-name[data-astro-cid-wcoxe63l]{position:relative;font-family:goldenbook,Italiana,Cormorant,serif;font-weight:300;font-size:clamp(19px,2.3vw,34px);line-height:1.25;letter-spacing:.012em;color:#241a10;white-space:nowrap}.cr-name[data-astro-cid-wcoxe63l]:after{content:attr(data-txt);content:attr(data-txt) / \"\";position:absolute;left:0;top:0;white-space:nowrap;color:var(--red-hover);clip-path:inset(0 100% 0 0);transition:clip-path .55s cubic-bezier(.65,0,.35,1)}.cr-cell[data-astro-cid-wcoxe63l]:hover .cr-name[data-astro-cid-wcoxe63l]:after{clip-path:inset(0 0 0 0)}.cr-dot[data-astro-cid-wcoxe63l]{flex:none;width:4px;height:4px;margin:0 clamp(20px,2.6vw,44px);background:var(--red);opacity:.5;transform:rotate(45deg)}@media(prefers-reduced-motion:reduce){.cr-marquee[data-astro-cid-wcoxe63l]{-webkit-mask-image:none;mask-image:none}.cr-track[data-astro-cid-wcoxe63l]{animation:none;flex-wrap:wrap;width:auto;max-width:1360px;margin-inline:auto;row-gap:10px}.cr-cell[data-astro-cid-wcoxe63l][aria-hidden=true]{display:none}}.cr-narrow[data-astro-cid-wcoxe63l]{text-align:left}.cr-narrow[data-astro-cid-wcoxe63l] .cr-rule[data-astro-cid-wcoxe63l],.cr-narrow[data-astro-cid-wcoxe63l] .cr-kick[data-astro-cid-wcoxe63l],.cr-narrow[data-astro-cid-wcoxe63l] .cr-head[data-astro-cid-wcoxe63l]{max-width:800px}\n.close-row{color:#241a10;transition:color .35s ease,transform .5s cubic-bezier(.22,1,.36,1)}.next-tag{display:block;font-size:var(--lab-quiet);letter-spacing:.16em;color:var(--red);margin-bottom:10px}.close-row--next{align-items:flex-end!important}.close-row:hover{transform:translate(1.1vw)}@media(prefers-reduced-motion:reduce){.close-row:hover{color:var(--red)}}.close-meta{opacity:0;transform:translate(-8px);transition:opacity .4s ease .06s,transform .4s ease .06s}.close-row:hover .close-meta{opacity:1;transform:none}@media(hover:none){.close-meta{opacity:1}}@media(max-width:640px){.close-meta{display:none}}\n@media(prefers-reduced-motion:no-preference){html.js [data-reveal]{opacity:0;transform:translateY(22px)}html.revealed [data-reveal]{opacity:1;transform:none;transition:opacity .85s cubic-bezier(.22,1,.36,1),transform .85s cubic-bezier(.22,1,.36,1);transition-delay:var(--reveal-d, 0s)}}@media(max-width:640px){.contact-main[data-astro-cid-uw5kdbxl]{padding-left:24px!important;padding-right:24px!important}.hb-embed[data-astro-cid-uw5kdbxl]{max-width:none!important;margin-inline:0!important}}.hb-embed[data-astro-cid-uw5kdbxl] iframe[data-astro-cid-uw5kdbxl]{width:100%!important;max-width:none!important}.portal-line[data-astro-cid-uw5kdbxl] a[data-astro-cid-uw5kdbxl]:hover{color:#1c1813;text-decoration-color:#1c181380}.portal-line[data-astro-cid-uw5kdbxl] a[data-astro-cid-uw5kdbxl]{display:inline-block;padding:12px 8px}\n"
+  ],
+  "scripts": [
+   "contact.astro_astro_type_script_index_0_lang.BYQNG19s.js",
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "documentary-wedding-photographer-dc",
+  "path": "/documentary-wedding-photographer-dc",
+  "title": "Documentary Wedding Photographer in Washington DC \u00b7 FF Dev",
+  "description": "I photograph Washington DC weddings as they truly unfold, unposed and story-first, a film-inspired documentary approach that keeps the whole day yours.",
+  "robots": "",
+  "ogImage": "/img/story/f04-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "",
+  "pageCss": [
+   "commercial-photographer-dc.m0j07Yo3.css"
+  ],
+  "inlineStyles": [],
+  "scripts": [
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": [
+   "const c=new IntersectionObserver(o=>o.forEach(e=>{e.isInters"
+  ]
+ },
+ {
+  "slug": "editorial-photographer-dc",
+  "path": "/editorial-photographer-dc",
+  "title": "Editorial and Fashion Photographer, Washington DC & New York \u00b7 FF Dev",
+  "description": "Editorial and fashion photographer in Washington DC and New York. Film-inspired, a little Y2K, a little moody concept and campaign work for brands, magazines and designers.",
+  "robots": "",
+  "ogImage": "/img/editorials/the-heel-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "",
+  "pageCss": [
+   "commercial-photographer-dc.m0j07Yo3.css"
+  ],
+  "inlineStyles": [],
+  "scripts": [
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": [
+   "const c=new IntersectionObserver(o=>o.forEach(e=>{e.isInters"
+  ]
+ },
+ {
+  "slug": "editorials",
+  "path": "/editorials",
+  "title": "Editorials \u00b7 FF Dev \u00b7 Y2K Editorial, Portrait & Headshot Photography, Washington DC & New York",
+  "description": "Editorial, portrait and concept photography by FF Dev: Y2K editorials, fashion, headshots and personal branding portraits with attitude, monuments, campaigns, studio noir and slow light. Washington DC and New York.",
+  "robots": "",
+  "ogImage": "/img/editorials/the-heel-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "galleries",
+  "pageCss": [
+   "editorials.BpX0GcFp.css"
+  ],
+  "inlineStyles": [],
+  "scripts": [
+   "editorials.astro_astro_type_script_index_0_lang.BYVfdAuZ.js",
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "editorials_exchange",
+  "path": "/editorials/exchange",
+  "title": "Editorial Exchange 2 \u00b7 FF Dev \u00b7 Editorial Photography, Washington DC & New York",
+  "description": "Editorial Exchange 2, with Lattly: time set aside for print and editorial work, everyone giving the day and taking the pictures home. An industrial floor in Baltimore, July 2026. Editorial photography by FF Dev, Washington DC and New York.",
+  "robots": "",
+  "ogImage": "/img/editorials/a7300839-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "galleries",
+  "pageCss": [
+   "exchange.B_emZug5.css"
+  ],
+  "inlineStyles": [
+   ".ew-frame{display:block;object-fit:cover;object-position:center;background-color:#e8e3d8}.ew-frame--para{width:100%;height:114%;margin-top:-7%}.ew-frame--flat{width:100%;height:100%}@media(max-width:640px){:has(>.ew-frame){height:auto!important;max-height:none!important;aspect-ratio:auto!important}.ew-frame{position:static!important;width:100%!important;height:auto!important;max-height:none!important;margin:0!important;object-fit:contain;transform:none!important}}.ew-moment{width:min(92vw,940px);margin-left:auto;margin-right:auto}.ew-moment--wide{width:min(94vw,1080px)}.ew-moment--pano{width:min(96vw,1240px)}@media(max-width:640px){.ew-moment,.ew-moment--wide,.ew-moment--pano{width:74vw;margin-top:clamp(52px,10vh,96px)!important;margin-bottom:clamp(44px,8vh,80px)}}\n",
+   ".close-row{color:#241a10;transition:color .35s ease,transform .5s cubic-bezier(.22,1,.36,1)}.next-tag{display:block;font-size:var(--lab-quiet);letter-spacing:.16em;color:var(--red);margin-bottom:10px}.close-row--next{align-items:flex-end!important}.close-row:hover{transform:translate(1.1vw)}@media(prefers-reduced-motion:reduce){.close-row:hover{color:var(--red)}}.close-meta{opacity:0;transform:translate(-8px);transition:opacity .4s ease .06s,transform .4s ease .06s}.close-row:hover .close-meta{opacity:1;transform:none}@media(hover:none){.close-meta{opacity:1}}@media(max-width:640px){.close-meta{display:none}}\n"
+  ],
+  "scripts": [
+   "exchange.astro_astro_type_script_index_0_lang.CwsQB56K.js",
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "engagement-photographer-dc",
+  "path": "/engagement-photographer-dc",
+  "title": "Engagement Photographer in Washington DC \u00b7 FF Dev",
+  "description": "I'm FF, an engagement photographer in Washington DC. Film-inspired, low-pressure sessions around the monuments, museums and golden-hour light you already love.",
+  "robots": "",
+  "ogImage": "/img/engagements/dsc01297-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "",
+  "pageCss": [
+   "commercial-photographer-dc.m0j07Yo3.css"
+  ],
+  "inlineStyles": [],
+  "scripts": [
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": [
+   "const c=new IntersectionObserver(o=>o.forEach(e=>{e.isInters"
+  ]
+ },
+ {
+  "slug": "engagements",
+  "path": "/engagements",
+  "title": "Engagements \u00b7 FF Dev \u00b7 Engagement Sessions in Washington DC & New York",
+  "description": "Engagement and couples sessions by FF Dev: the city, the museums, date night and golden hour, photographed like a very good date on a vintage, film-inspired palette. Washington DC, New York, available nationwide.",
+  "robots": "",
+  "ogImage": "/img/engagements/dsc01297-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "galleries",
+  "pageCss": [
+   "commercial.dn0uc9ku.css"
+  ],
+  "inlineStyles": [
+   "\n      [data-hero] { opacity: 1 !important; }\n    ",
+   ".ew-frame{display:block;object-fit:cover;object-position:center;background-color:#e8e3d8}.ew-frame--para{width:100%;height:114%;margin-top:-7%}.ew-frame--flat{width:100%;height:100%}@media(max-width:640px){:has(>.ew-frame){height:auto!important;max-height:none!important;aspect-ratio:auto!important}.ew-frame{position:static!important;width:100%!important;height:auto!important;max-height:none!important;margin:0!important;object-fit:contain;transform:none!important}}.ew-moment{width:min(92vw,940px);margin-left:auto;margin-right:auto}.ew-moment--wide{width:min(94vw,1080px)}.ew-moment--pano{width:min(96vw,1240px)}@media(max-width:640px){.ew-moment,.ew-moment--wide,.ew-moment--pano{width:74vw;margin-top:clamp(52px,10vh,96px)!important;margin-bottom:clamp(44px,8vh,80px)}}\n"
+  ],
+  "scripts": [
+   "engagements.astro_astro_type_script_index_0_lang.CI60NYEg.js",
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "film-wedding-photographer-dc",
+  "path": "/film-wedding-photographer-dc",
+  "title": "Film Wedding Photographer in Washington DC | FF Dev Studio",
+  "description": "Film-inspired wedding photography in Washington DC, New York and across the DMV: warm grain, muted color and unposed documentary moments, by FF.",
+  "robots": "",
+  "ogImage": "/img/story/c04-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "",
+  "pageCss": [
+   "commercial-photographer-dc.m0j07Yo3.css"
+  ],
+  "inlineStyles": [],
+  "scripts": [
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": [
+   "const c=new IntersectionObserver(o=>o.forEach(e=>{e.isInters"
+  ]
+ },
+ {
+  "slug": "film-wedding-photographer-nyc",
+  "path": "/film-wedding-photographer-nyc",
+  "title": "Film-Inspired Wedding Photographer in New York \u00b7 FF Dev",
+  "description": "Film-inspired, documentary wedding photographer in New York. Moody, warm, unposed coverage from City Hall to Brooklyn lofts and skyline rooftops. Nationwide travel.",
+  "robots": "",
+  "ogImage": "/img/story/c06-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "",
+  "pageCss": [
+   "commercial-photographer-dc.m0j07Yo3.css"
+  ],
+  "inlineStyles": [],
+  "scripts": [
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": [
+   "const c=new IntersectionObserver(o=>o.forEach(e=>{e.isInters"
+  ]
+ },
+ {
+  "slug": "index",
+  "path": "/",
+  "title": "FF Dev \u00b7 Film-Inspired Wedding & Editorial Photographer \u00b7 Washington DC & New York",
+  "description": "Documentary wedding, editorial, portrait and commercial photography by FF of FF Dev Studio. Film-inspired, vintage-leaning and a little moody. Washington DC and New York, available worldwide.",
+  "robots": "",
+  "ogImage": "https://ffdev.studio/og-image.jpg",
+  "cursor": "always",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": null,
+  "ctaPhone": false,
+  "dockActive": "home",
+  "pageCss": [
+   "index.DZKze9zd.css"
+  ],
+  "inlineStyles": [],
+  "scripts": [
+   "index.astro_astro_type_script_index_0_lang.BrAlVGyY.js",
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "maryland-virginia-wedding-photographer",
+  "path": "/maryland-virginia-wedding-photographer",
+  "title": "Maryland & Virginia Wedding Photographer \u00b7 Film-Inspired Documentary \u00b7 FF Dev",
+  "description": "Film-inspired documentary wedding photography across Maryland and Virginia, from estate lawns to wine country to Chesapeake waterfronts. DC and New York based.",
+  "robots": "",
+  "ogImage": "/img/story/r03-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "",
+  "pageCss": [
+   "commercial-photographer-dc.m0j07Yo3.css"
+  ],
+  "inlineStyles": [],
+  "scripts": [
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": [
+   "const c=new IntersectionObserver(o=>o.forEach(e=>{e.isInters"
+  ]
+ },
+ {
+  "slug": "moody-wedding-photographer-dc",
+  "path": "/moody-wedding-photographer-dc",
+  "title": "Moody Dark Wedding Photographer in Washington DC \u00b7 FF Dev",
+  "description": "I photograph moody, dark and romantic weddings across Washington DC and New York. Film-inspired mood, rich shadow, dramatic low light and vintage color.",
+  "robots": "",
+  "ogImage": "/img/story/c05-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "",
+  "pageCss": [
+   "commercial-photographer-dc.m0j07Yo3.css"
+  ],
+  "inlineStyles": [],
+  "scripts": [
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": [
+   "const c=new IntersectionObserver(o=>o.forEach(e=>{e.isInters"
+  ]
+ },
+ {
+  "slug": "pricing",
+  "path": "/pricing",
+  "title": "Wedding Photography Pricing \u00b7 FF Dev \u00b7 Washington DC & New York",
+  "description": "Wedding photography from $2,962, engagements from $543, portraits from $649, in Washington DC, New York and nationwide. Build your quote by date and hours: the number you see is the number I quote.",
+  "robots": "",
+  "ogImage": "https://ffdev.studio/og-image.jpg",
+  "cursor": "menu",
+  "navTheme": "light",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "pricing",
+  "pageCss": [
+   "pricing.DKKmFHdj.css"
+  ],
+  "inlineStyles": [
+   ".cr[data-astro-cid-wcoxe63l]{padding:clamp(46px,8vh,96px) 0 clamp(10px,2vh,24px);width:100%}.cr-rule[data-astro-cid-wcoxe63l]{max-width:1360px;margin:0 auto clamp(26px,4vh,44px);height:1px;background:#241a1024}.cr-kick[data-astro-cid-wcoxe63l],.cr-head[data-astro-cid-wcoxe63l]{max-width:1360px;margin-inline:auto;color:#9a8f7c}.cr-kick[data-astro-cid-wcoxe63l]{font-size:var(--lab);letter-spacing:.18em;margin-bottom:clamp(26px,4vh,46px)}.cr-head[data-astro-cid-wcoxe63l]{font-size:var(--lab-quiet);letter-spacing:.18em;font-weight:400;margin-bottom:clamp(10px,1.6vh,16px)}.cr-band[data-astro-cid-wcoxe63l]+.cr-band[data-astro-cid-wcoxe63l]{margin-top:clamp(30px,5vh,58px)}.cr-marquee[data-astro-cid-wcoxe63l]{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}.cr-track[data-astro-cid-wcoxe63l]{display:flex;width:max-content;animation:cr-run 46s linear infinite}.cr-track--r[data-astro-cid-wcoxe63l]{animation-direction:reverse}@keyframes cr-run{to{transform:translate(-50%)}}.cr-marquee[data-astro-cid-wcoxe63l]:hover .cr-track[data-astro-cid-wcoxe63l],.cr-track[data-astro-cid-wcoxe63l]:focus-within{animation-play-state:paused}.cr-cell[data-astro-cid-wcoxe63l]{display:inline-flex;align-items:center;flex:none}.cr-name[data-astro-cid-wcoxe63l]{position:relative;font-family:goldenbook,Italiana,Cormorant,serif;font-weight:300;font-size:clamp(19px,2.3vw,34px);line-height:1.25;letter-spacing:.012em;color:#241a10;white-space:nowrap}.cr-name[data-astro-cid-wcoxe63l]:after{content:attr(data-txt);content:attr(data-txt) / \"\";position:absolute;left:0;top:0;white-space:nowrap;color:var(--red-hover);clip-path:inset(0 100% 0 0);transition:clip-path .55s cubic-bezier(.65,0,.35,1)}.cr-cell[data-astro-cid-wcoxe63l]:hover .cr-name[data-astro-cid-wcoxe63l]:after{clip-path:inset(0 0 0 0)}.cr-dot[data-astro-cid-wcoxe63l]{flex:none;width:4px;height:4px;margin:0 clamp(20px,2.6vw,44px);background:var(--red);opacity:.5;transform:rotate(45deg)}@media(prefers-reduced-motion:reduce){.cr-marquee[data-astro-cid-wcoxe63l]{-webkit-mask-image:none;mask-image:none}.cr-track[data-astro-cid-wcoxe63l]{animation:none;flex-wrap:wrap;width:auto;max-width:1360px;margin-inline:auto;row-gap:10px}.cr-cell[data-astro-cid-wcoxe63l][aria-hidden=true]{display:none}}.cr-narrow[data-astro-cid-wcoxe63l]{text-align:left}.cr-narrow[data-astro-cid-wcoxe63l] .cr-rule[data-astro-cid-wcoxe63l],.cr-narrow[data-astro-cid-wcoxe63l] .cr-kick[data-astro-cid-wcoxe63l],.cr-narrow[data-astro-cid-wcoxe63l] .cr-head[data-astro-cid-wcoxe63l]{max-width:800px}\n.close-row{color:#241a10;transition:color .35s ease,transform .5s cubic-bezier(.22,1,.36,1)}.next-tag{display:block;font-size:var(--lab-quiet);letter-spacing:.16em;color:var(--red);margin-bottom:10px}.close-row--next{align-items:flex-end!important}.close-row:hover{transform:translate(1.1vw)}@media(prefers-reduced-motion:reduce){.close-row:hover{color:var(--red)}}.close-meta{opacity:0;transform:translate(-8px);transition:opacity .4s ease .06s,transform .4s ease .06s}.close-row:hover .close-meta{opacity:1;transform:none}@media(hover:none){.close-meta{opacity:1}}@media(max-width:640px){.close-meta{display:none}}\n"
+  ],
+  "scripts": [
+   "PricingCalculator.astro_astro_type_script_index_0_lang.rCLJND1o.js",
+   "pricing.astro_astro_type_script_index_0_lang.sjc1e2kx.js",
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "privacy",
+  "path": "/privacy",
+  "title": "Privacy Policy \u00b7 FF Dev Studio",
+  "description": "How FF Dev Studio collects, uses, and protects your information: the inquiry form, the pricing estimator, cookies, image use, and your rights.",
+  "robots": "",
+  "ogImage": "https://ffdev.studio/og-image.jpg",
+  "cursor": "none",
+  "navTheme": "light",
+  "hasNav": true,
+  "menu": false,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "",
+  "pageCss": [],
+  "inlineStyles": [
+   ".t-h{font-family:goldenbook,Italiana,Cormorant,serif;font-weight:300;text-transform:uppercase;font-size:clamp(17px,1.7vw,24px);letter-spacing:.04em;margin:46px 0 12px;scroll-margin-top:calc(var(--head-band) + 18px)}.t-p{font-size:14.5px;line-height:1.75;color:#3a342b;margin-bottom:12px;text-wrap:pretty}.t-p a{text-decoration:underline}.t-num{color:#9a8f7c;margin-right:10px}.t-l{font-size:14.5px;line-height:1.75;color:#3a342b;margin:0 0 12px;padding-left:20px}.t-l li{margin-bottom:4px}.credit{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:13px 2px;border-bottom:1px solid rgba(28,24,19,.12);font-size:13.5px}.credit a{text-decoration:underline}@media(max-width:520px){.credit{flex-direction:column;align-items:flex-start;gap:3px;padding:11px 2px}}.toc{display:grid;grid-template-columns:1fr;border-top:1px solid rgba(28,24,19,.12);margin:4vh 0 1vh}.toc a{display:flex;align-items:center;gap:12px;min-height:44px;padding:10px 2px;border-bottom:1px solid rgba(28,24,19,.12);font-size:13.5px;color:#3a342b;text-decoration:none;transition:color .25s ease}.toc a:hover{color:#1c1813}.toc .toc-n{color:#9a8f7c;font-size:var(--lab);letter-spacing:.16em}@media(min-width:700px){.toc{grid-template-columns:1fr 1fr;column-gap:34px}}\n"
+  ],
+  "scripts": [
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "stories",
+  "path": "/stories",
+  "title": "Stories & Galleries \u00b7 FF Dev \u00b7 Wedding & Editorial Photographer, Washington DC & New York",
+  "description": "Full wedding and engagement galleries from FF Dev. Chaptered stories and guest galleries from weddings in Washington DC, New York and nationwide.",
+  "robots": "",
+  "ogImage": "https://ffdev.studio/og-image.jpg",
+  "cursor": "menu",
+  "navTheme": "light",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "galleries",
+  "pageCss": [
+   "stories.0p9YHixv.css"
+  ],
+  "inlineStyles": [
+   ".close-row{color:#241a10;transition:color .35s ease,transform .5s cubic-bezier(.22,1,.36,1)}.next-tag{display:block;font-size:var(--lab-quiet);letter-spacing:.16em;color:var(--red);margin-bottom:10px}.close-row--next{align-items:flex-end!important}.close-row:hover{transform:translate(1.1vw)}@media(prefers-reduced-motion:reduce){.close-row:hover{color:var(--red)}}.close-meta{opacity:0;transform:translate(-8px);transition:opacity .4s ease .06s,transform .4s ease .06s}.close-row:hover .close-meta{opacity:1;transform:none}@media(hover:none){.close-meta{opacity:1}}@media(max-width:640px){.close-meta{display:none}}\n"
+  ],
+  "scripts": [
+   "stories.astro_astro_type_script_index_0_lang.BFCE57kX.js",
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "terms",
+  "path": "/terms",
+  "title": "Terms & Conditions \u00b7 FF Dev Studio",
+  "description": "Terms and conditions for FF Dev Studio: bookings, payments, copyright, image licensing, deliverables, and website terms.",
+  "robots": "",
+  "ogImage": "https://ffdev.studio/og-image.jpg",
+  "cursor": "none",
+  "navTheme": "light",
+  "hasNav": true,
+  "menu": false,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "",
+  "pageCss": [],
+  "inlineStyles": [
+   ".t-h{font-family:goldenbook,Italiana,Cormorant,serif;font-weight:300;text-transform:uppercase;font-size:clamp(17px,1.7vw,24px);letter-spacing:.04em;margin:46px 0 12px;scroll-margin-top:calc(var(--head-band) + 18px)}.t-p{font-size:14.5px;line-height:1.75;color:#3a342b;margin-bottom:12px;text-wrap:pretty}.t-p a{text-decoration:underline}.t-num{color:#9a8f7c;margin-right:10px}.credit{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:13px 2px;border-bottom:1px solid rgba(28,24,19,.12);font-size:13.5px}.credit a{text-decoration:underline}\n"
+  ],
+  "scripts": [
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "weddings",
+  "path": "/weddings",
+  "title": "Weddings \u00b7 FF Dev \u00b7 Film-Inspired, Moody Documentary Wedding Photographer, Washington DC & New York",
+  "description": "How a wedding day unfolds, photographed as it happens. Moody, film-inspired documentary wedding and engagement photography with a vintage feel. Washington DC, New York, available nationwide.",
+  "robots": "",
+  "ogImage": "/img/story/c04-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/",
+   "label": "\u2190 Home"
+  },
+  "ctaPhone": false,
+  "dockActive": "galleries",
+  "pageCss": [
+   "commercial.dn0uc9ku.css"
+  ],
+  "inlineStyles": [
+   "\n      [data-hero] { opacity: 1 !important; }\n    ",
+   ".ew-frame{display:block;object-fit:cover;object-position:center;background-color:#e8e3d8}.ew-frame--para{width:100%;height:114%;margin-top:-7%}.ew-frame--flat{width:100%;height:100%}@media(max-width:640px){:has(>.ew-frame){height:auto!important;max-height:none!important;aspect-ratio:auto!important}.ew-frame{position:static!important;width:100%!important;height:auto!important;max-height:none!important;margin:0!important;object-fit:contain;transform:none!important}}.ew-moment{width:min(92vw,940px);margin-left:auto;margin-right:auto}.ew-moment--wide{width:min(94vw,1080px)}.ew-moment--pano{width:min(96vw,1240px)}@media(max-width:640px){.ew-moment,.ew-moment--wide,.ew-moment--pano{width:74vw;margin-top:clamp(52px,10vh,96px)!important;margin-bottom:clamp(44px,8vh,80px)}}\n"
+  ],
+  "scripts": [
+   "weddings.astro_astro_type_script_index_0_lang.BAEatmI0.js",
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "weddings_abigail-mate",
+  "path": "/weddings/abigail-mate",
+  "title": "Abigail & M\u00e1t\u00e9 \u00b7 Meridian House, Washington DC \u00b7 FF Dev Studio",
+  "description": "An April wedding at Meridian House in Washington DC, warm and candid and a little cinematic, photographed by FF Dev.",
+  "robots": "",
+  "ogImage": "/img/abigail-mate/dsc08980-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/stories",
+   "label": "\u2190 Stories"
+  },
+  "ctaPhone": false,
+  "dockActive": "galleries",
+  "pageCss": [
+   "abigail-mate.BmtUcV-4.css"
+  ],
+  "inlineStyles": [
+   "\n      [data-hero] { opacity: 1 !important; }\n    ",
+   ".ew-frame{display:block;object-fit:cover;object-position:center;background-color:#e8e3d8}.ew-frame--para{width:100%;height:114%;margin-top:-7%}.ew-frame--flat{width:100%;height:100%}@media(max-width:640px){:has(>.ew-frame){height:auto!important;max-height:none!important;aspect-ratio:auto!important}.ew-frame{position:static!important;width:100%!important;height:auto!important;max-height:none!important;margin:0!important;object-fit:contain;transform:none!important}}.ew-moment{width:min(92vw,940px);margin-left:auto;margin-right:auto}.ew-moment--wide{width:min(94vw,1080px)}.ew-moment--pano{width:min(96vw,1240px)}@media(max-width:640px){.ew-moment,.ew-moment--wide,.ew-moment--pano{width:74vw;margin-top:clamp(52px,10vh,96px)!important;margin-bottom:clamp(44px,8vh,80px)}}\n"
+  ],
+  "scripts": [
+   "abigail-mate.astro_astro_type_script_index_0_lang.4ZXdYl_1.js",
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "weddings_reanna-hawkeye",
+  "path": "/weddings/reanna-hawkeye",
+  "title": "Reanna & Hawkeye \u00b7 Riverside on the Potomac, Leesburg VA \u00b7 FF Dev Studio",
+  "description": "A June wedding at Riverside on the Potomac in Leesburg, Virginia, photographed as it happened by FF Dev.",
+  "robots": "",
+  "ogImage": "/img/reanna-hawkeye/dsc02159-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/stories",
+   "label": "\u2190 Stories"
+  },
+  "ctaPhone": false,
+  "dockActive": "galleries",
+  "pageCss": [
+   "abigail-mate.BmtUcV-4.css"
+  ],
+  "inlineStyles": [
+   "\n      [data-hero] { opacity: 1 !important; }\n    ",
+   ".ew-frame{display:block;object-fit:cover;object-position:center;background-color:#e8e3d8}.ew-frame--para{width:100%;height:114%;margin-top:-7%}.ew-frame--flat{width:100%;height:100%}@media(max-width:640px){:has(>.ew-frame){height:auto!important;max-height:none!important;aspect-ratio:auto!important}.ew-frame{position:static!important;width:100%!important;height:auto!important;max-height:none!important;margin:0!important;object-fit:contain;transform:none!important}}.ew-moment{width:min(92vw,940px);margin-left:auto;margin-right:auto}.ew-moment--wide{width:min(94vw,1080px)}.ew-moment--pano{width:min(96vw,1240px)}@media(max-width:640px){.ew-moment,.ew-moment--wide,.ew-moment--pano{width:74vw;margin-top:clamp(52px,10vh,96px)!important;margin-bottom:clamp(44px,8vh,80px)}}\n"
+  ],
+  "scripts": [
+   "reanna-hawkeye.astro_astro_type_script_index_0_lang.CtjG30aW.js",
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ },
+ {
+  "slug": "weddings_shawni-ben",
+  "path": "/weddings/shawni-ben",
+  "title": "Shawni & Ben \u00b7 The DAR, Washington DC \u00b7 FF Dev Studio",
+  "description": "A wedding at Memorial Continental Hall (the DAR), Washington DC, photographed as it happened by FF Dev.",
+  "robots": "",
+  "ogImage": "/img/story/f05-w1200.webp",
+  "cursor": "menu",
+  "navTheme": "dark",
+  "hasNav": true,
+  "menu": true,
+  "back": {
+   "href": "/stories",
+   "label": "\u2190 Stories"
+  },
+  "ctaPhone": false,
+  "dockActive": "galleries",
+  "pageCss": [
+   "abigail-mate.BmtUcV-4.css"
+  ],
+  "inlineStyles": [
+   "\n      [data-hero] { opacity: 1 !important; }\n    ",
+   ".ew-frame{display:block;object-fit:cover;object-position:center;background-color:#e8e3d8}.ew-frame--para{width:100%;height:114%;margin-top:-7%}.ew-frame--flat{width:100%;height:100%}@media(max-width:640px){:has(>.ew-frame){height:auto!important;max-height:none!important;aspect-ratio:auto!important}.ew-frame{position:static!important;width:100%!important;height:auto!important;max-height:none!important;margin:0!important;object-fit:contain;transform:none!important}}.ew-moment{width:min(92vw,940px);margin-left:auto;margin-right:auto}.ew-moment--wide{width:min(94vw,1080px)}.ew-moment--pano{width:min(96vw,1240px)}@media(max-width:640px){.ew-moment,.ew-moment--wide,.ew-moment--pano{width:74vw;margin-top:clamp(52px,10vh,96px)!important;margin-bottom:clamp(44px,8vh,80px)}}\n"
+  ],
+  "scripts": [
+   "shawni-ben.astro_astro_type_script_index_0_lang.CtjG30aW.js",
+   "Base.astro_astro_type_script_index_0_lang.lXeEVXey.js"
+  ],
+  "inlineScripts": []
+ }
+]

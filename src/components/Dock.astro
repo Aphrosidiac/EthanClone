@@ -1,0 +1,61 @@
+---
+/** Phone-only bottom dock + the galleries sheet it opens. Hidden above 640px by base.css. */
+interface Props { active?: string }
+const { active = '' } = Astro.props;
+const cur = (tab: string) => active === tab;
+const cats = [
+  { num: '01', name: 'Weddings', href: '/weddings', thumb: '/img/wedmain/dsc08332-w160.webp', sub: { href: '/stories', label: 'All visual stories' } },
+  { num: '02', name: 'Engagements', href: '/engagements', thumb: '/img/engagements/dsc00065-w160.webp' },
+  { num: '03', name: 'Commercial', href: '/commercial', thumb: '/img/commercial/dsc02469-edit-w160.webp' },
+  { num: '04', name: 'Editorials', href: '/editorials', thumb: '/img/editorials/dsc08499-w160.webp', sub: { href: '/editorials/exchange', label: 'View Editorial Exchange' } },
+];
+---
+<div class="dock-scrim" data-dock-scrim hidden></div>
+<nav class="dock-sheet" id="dock-sheet" data-dock-sheet aria-label="Galleries" hidden>
+  <span class="lab dock-sheet-tag">The galleries</span>
+  {cats.map((c) => (
+    <>
+      <a class="dock-cat" href={c.href}>
+        <span class="lab dock-cat-num">{c.num}</span>
+        <span class="dock-cat-name">{c.name}</span>
+        <span class="dock-cat-thumb" data-dock-thumb={c.thumb} aria-hidden="true"></span>
+      </a>
+      {c.sub && (
+        <a class="dock-cat dock-cat--sub" href={c.sub.href}>
+          <span class="dock-cat-name dock-cat-name--sub">{c.sub.label}</span>
+          <span class="dock-sub-arrow" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13"></path><path d="m13 6.6 5.4 5.4-5.4 5.4"></path></svg>
+          </span>
+        </a>
+      )}
+    </>
+  ))}
+</nav>
+<nav class="dock" data-dock data-active={active} aria-label="Primary">
+  <div class="dock-main">
+    <span class="dock-lens" data-dock-lens aria-hidden="true"></span>
+    <a class:list={['dock-tab', { 'is-current': cur('home') }]} data-tab="home" href="/" aria-current={cur('home') ? 'page' : undefined}>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 11.2 12 4.8l7.5 6.4"></path><path d="M6.7 9.9V19h10.6V9.9"></path></svg>
+      <span class="lab dock-lab">Home</span>
+    </a>
+    <button class:list={['dock-tab', { 'is-current': cur('galleries') }]} type="button" data-tab="galleries" data-dock-galleries aria-expanded="false" aria-controls="dock-sheet" aria-haspopup="true">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6.7" height="6.7" rx="1.6"></rect><rect x="13.3" y="4" width="6.7" height="6.7" rx="1.6"></rect><rect x="4" y="13.3" width="6.7" height="6.7" rx="1.6"></rect><rect x="13.3" y="13.3" width="6.7" height="6.7" rx="1.6"></rect></svg>
+      <span class="lab dock-lab">Galleries</span>
+    </button>
+    <a class:list={['dock-tab', { 'is-current': cur('pricing') }]} data-tab="pricing" href="/pricing" aria-current={cur('pricing') ? 'page' : undefined}>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.3 3.3H5.6a2.3 2.3 0 0 0-2.3 2.3v6.7c0 .61.24 1.2.67 1.63l7.1 7.1a2.3 2.3 0 0 0 3.25 0l5.75-5.75a2.3 2.3 0 0 0 0-3.25l-7.1-7.1a2.3 2.3 0 0 0-1.63-.67Z"></path><circle cx="8.2" cy="8.2" r="1" fill="currentColor" stroke="none"></circle></svg>
+      <span class="lab dock-lab">Pricing</span>
+    </a>
+    <a class:list={['dock-tab', { 'is-current': cur('about') }]} data-tab="about" href="/about" aria-current={cur('about') ? 'page' : undefined}>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8.1" r="3.4"></circle><path d="M5.3 19.6c.9-3.5 3.5-5.3 6.7-5.3s5.8 1.8 6.7 5.3"></path></svg>
+      <span class="lab dock-lab">About</span>
+    </a>
+  </div>
+  <a class:list={['dock-cta', { 'is-current': cur('inquire') }]} href="/contact" aria-current={cur('inquire') ? 'page' : undefined}>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.6" y="5.6" width="16.8" height="12.8" rx="2.4"></rect><path d="m4.6 7.4 7.4 5.7 7.4-5.7"></path></svg>
+    <span class="lab dock-lab">Inquire</span>
+  </a>
+</nav>
+<script>
+  import '../scripts/dock';
+</script>

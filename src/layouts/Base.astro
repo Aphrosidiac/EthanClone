@@ -1,0 +1,108 @@
+---
+/** Document shell. Head order, body attributes and the shared chrome (header, menu overlay,
+ *  dock) follow the reference page for page; only the identity comes from lib/site.ts. */
+import '../styles/typekit.css';
+import '../styles/base.css';
+import Header from '../components/Header.astro';
+import Dock from '../components/Dock.astro';
+import menuHtml from '../fragments/_menu.html?raw';
+import { site } from '../lib/site';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  robots?: string;
+  ogImage?: string;
+  /** body[data-cursor]: "always" on the index, "menu" on pages with the overlay, "none" on legal/404 */
+  cursor?: 'always' | 'menu' | 'none';
+  navTheme: 'dark' | 'light';
+  hasNav?: boolean;
+  menu?: boolean;
+  back?: { href: string; label: string } | null;
+  ctaPhone?: boolean;
+  dockActive?: string;
+  ogType?: string;
+}
+const {
+  title, description, path, robots, ogImage = site.ogImage, cursor = 'menu',
+  navTheme, hasNav = true, menu = true, back = null, ctaPhone = false, dockActive = '', ogType = 'website',
+} = Astro.props;
+const canonical = site.url + (path === '/' ? '/' : path);
+const ogImageAbs = ogImage.startsWith('http') ? ogImage : site.url + ogImage;
+const ld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': ['LocalBusiness', 'ProfessionalService'],
+    '@id': `${site.url}/#business`,
+    name: site.name,
+    description: 'Documentary wedding, engagement, editorial and commercial photography by FF Dev Studio. Film-inspired, vintage-leaning and a little moody. Based in Washington DC and New York, available nationwide.',
+    url: site.url,
+    image: site.url + site.ogImage,
+    address: { '@type': 'PostalAddress', addressLocality: 'Washington', addressRegion: 'DC', addressCountry: 'US' },
+    areaServed: ['Washington, DC', 'New York, NY', 'Maryland', 'Virginia', 'United States'],
+    sameAs: [site.instagram],
+    priceRange: '$$',
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog', name: 'Photography services',
+      itemListElement: ['weddings', 'engagements', 'editorials', 'commercial'].map((s) => ({
+        '@type': 'Offer', itemOffered: { '@type': 'Service', '@id': `${site.url}/#service-${s}`, name: `${s[0].toUpperCase() + s.slice(1)} photography`, url: `${site.url}/${s}` },
+      })),
+    },
+  },
+  { '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${site.url}/#website`, name: site.name, url: site.url, publisher: { '@id': `${site.url}/#business` } },
+];
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {robots && <meta name="robots" content={robots} />}
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" media="(prefers-color-scheme: light)" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" media="(prefers-color-scheme: light)" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32-dark.png" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16-dark.png" media="(prefers-color-scheme: dark)" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content={site.themeColor} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImageAbs} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={site.ogImageAlt} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageAbs} />
+    <meta name="twitter:image:alt" content={site.ogImageAlt} />
+    <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+    <link rel="preload" href="/fonts/goldenbook.woff" as="font" type="font/woff" crossorigin />
+    <script is:inline>
+      // Event queue for the analytics shim; the reference pipes this to Vercel/Clarity, we keep it local.
+      window.ewTrack = window.ewTrack || function () { (window.ewq = window.ewq || []).push(arguments); };
+      // pre-paint: arm the arrival gate (body stays hidden until fonts settle — shell.js reveals)
+      document.documentElement.classList.add('js');
+    </script>
+    <slot name="head" />
+  </head>
+  <body data-cursor={cursor}>
+    <div class="page-shell">
+      <Header theme={navTheme} hasNav={hasNav} menu={menu} back={back} ctaPhone={ctaPhone} />
+      <slot />
+      {menu && <Fragment set:html={menuHtml} />}
+    </div>
+    <Dock active={dockActive} />
+    <script>
+      import '../scripts/shell';
+    </script>
+  </body>
+</html>

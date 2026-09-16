@@ -1,0 +1,9 @@
+/* Self-hosted copies of the faces the reference serves from Typekit (goldenbook 300/400/600/700, orpheuspro 400).
+   Declared before base.css, exactly as the reference orders its stylesheets. */
+@font-face{font-family:"goldenbook";src:url("/fonts/goldenbook-600.woff2") format("woff2");font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;}
+@font-face{font-family:"goldenbook";src:url("/fonts/goldenbook-300.woff2") format("woff2");font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;}
+@font-face{font-family:"goldenbook";src:url("/fonts/goldenbook-400.woff2") format("woff2");font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;}
+@font-face{font-family:"goldenbook";src:url("/fonts/goldenbook-700.woff2") format("woff2");font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;}
+@font-face{font-family:"orpheuspro";src:url("/fonts/orpheuspro-400.woff2") format("woff2");font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;}
+.tk-goldenbook{font-family:"goldenbook",serif;}
+.tk-orpheuspro{font-family:"orpheuspro",serif;}

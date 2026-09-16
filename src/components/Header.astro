@@ -1,0 +1,40 @@
+---
+/** Fixed site header. Variants measured from the reference: theme (dark/light), whether it
+ *  reacts to scroll (data-nav), the menu button, an optional back link, and the contact page's
+ *  phone-only "Pricing" pill in place of Inquire. */
+import { site } from '../lib/site';
+interface Props {
+  theme: 'dark' | 'light';
+  hasNav?: boolean;
+  menu?: boolean;
+  back?: { href: string; label: string } | null;
+  ctaPhone?: boolean;
+}
+const { theme, hasNav = true, menu = true, back = null, ctaPhone = false } = Astro.props;
+---
+<header class={`site nav-on-${theme}`} {...(hasNav ? { 'data-nav': '' } : {})}>
+  <div class="h-left">
+    {menu && (
+      <button class="menu-btn" id="menuOpen" aria-haspopup="dialog" aria-expanded="false" aria-controls="menu-overlay">
+        <span class="bars"> <span></span> <span></span> </span>
+        <span class="lab h-link">Menu</span>
+      </button>
+    )}
+    {back && <a href={back.href} class="lab h-link">{back.label}</a>}
+    <a href={site.portalLogin} rel="nofollow" class="lab h-login h-login--desk">Sign in</a>
+  </div>
+  <a href="/" class="logo">{site.mark}</a>
+  <div class="h-right h-actions">
+    <a href="/about" class="lab h-link h-about">About</a>
+    <a href="/pricing" class="lab h-link h-pricing">Pricing</a>
+    {ctaPhone ? (
+      <>
+        <a href="/contact" class="lab nav-cta nav-cta--desk">Inquire</a>
+        <a href="/pricing" class="lab nav-cta nav-cta--phone">Pricing</a>
+      </>
+    ) : (
+      <a href="/contact" class="lab nav-cta">Inquire</a>
+    )}
+    <a href={site.portalLogin} rel="nofollow" class="lab h-login h-login--phone">Sign in</a>
+  </div>
+</header>
