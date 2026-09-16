@@ -30,6 +30,12 @@ for (const p of paths) {
   const total = await page.evaluate(() => document.documentElement.scrollHeight);
   for (let y = 0; y < total; y += Math.round(h * 0.6)) { await page.evaluate((yy) => window.scrollTo(0, yy), y); await sleep(160); }
   await sleep(800);
+  // two mid-scroll viewports: scroll-driven states (pinned grids, parallax, rails, counters) live here
+  for (const frac of [0.35, 0.7]) {
+    await page.evaluate((y) => window.scrollTo(0, y), Math.round((total - h) * frac));
+    await sleep(1400);
+    await page.screenshot({ path: `${out}/${slug(p)}-mid${Math.round(frac * 100)}-${w}.png` });
+  }
   await page.evaluate(() => window.scrollTo(0, 0));
   await sleep(900);
   await page.screenshot({ path: `${out}/${slug(p)}-full-${w}.png`, fullPage: true }).catch((e) => console.log('full failed', p, e.message));

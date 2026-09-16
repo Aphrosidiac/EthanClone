@@ -43,6 +43,21 @@ Not reachable in the harness: the menu overlay on phones (the reference hides th
 uses the dock; the "+" accordion therefore only exists between 641–1024px or on coarse pointers — verified
 in the tablet capture's menu HTML, not screenshotted).
 
+## Interaction states, pass 2
+
+about peek open 0.84 / peek lightbox 0.35 · stories title hover cascade 0.25 · editorials preview on a
+real preview scene (the first scene is a link to /editorials/exchange, which the first pass had clicked on
+both sites): opening frame 0.10, open 0.67, Escape closing 0.20, closed 0.25 · menu grid lightbox 0.01 and
+ArrowRight 0.01 · pricing tooltip 0.00, wedding fields 0.00 · tablet 1024 menu: open 0.15, "+" accordion
+0.19, accordion → grid 0.67 · phone story chapter chip 0.64 and chapter sheet 0.36 · phone index 0.94 ·
+dock lens after tapping Pricing 10.6 (both mid leave-fade; >24 only 0.01%).
+
+## Mid-scroll viewports (35% and 70% of every page, 1440)
+
+All ≤3.0 (contact/terms residue = copy reflow; index-mid70 4.7 = the 6s backdrop cycle mid-crossfade).
+This is the pass that exercises the pinned grids, trio columns, exchange counter column, parallax and
+chapter rails in their scrolled states.
+
 ## Pricing calculator
 
 Same inputs on both sites (15 May 2027; wedding 8h medium guests, elopement 3h, engagement 2h, family
