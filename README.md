@@ -1,14 +1,14 @@
 # FF Frames
 
-A 1:1 recreation of ethanwong.photography under the FF / FF Dev Studio mark — a **local test build**.
+A 1:1 recreation of ethanwong.photography under the FF / FF Dev Studio mark, published as a **demo recreation** (every page carries the disclaimer: Ethan Wong Photography's work, assets not ours, not affiliated, not a live site). Live at https://ff-frames.pages.dev.
 The photography, the stylesheets and the copy (names swapped) are the reference's; the wordmark, icons,
-OG image and the behaviour code are ours. Nothing here is a live studio site and it must not be presented
-as one. Before anything ships, the imagery is to be replaced (see `docs/brief.md`).
+OG image and the behaviour code are ours. Nothing here is a live studio site and it must not be presented as one.
 
 ```bash
 npm install
 npm run dev      # http://localhost:3160
 npm run build    # static site in dist/
+npm run deploy   # direct upload to Cloudflare Pages (ff-frames); pushing to GitHub deploys nothing
 ```
 
 ## Layout

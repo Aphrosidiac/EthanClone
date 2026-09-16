@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "FF Dev Studio portfolio demo — ethanwong.photography rebuilt under our own mark. See docs/brief.md.",
+  "description": "FF Dev Studio portfolio demo \u2014 ethanwong.photography rebuilt under our own mark. See docs/brief.md.",
   "scripts": {
     "dev": "astro dev --port 3160",
     "build": "astro build",
     "preview": "astro preview --port 3160",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy": "./scripts/deploy.sh",
+    "deploy:preview": "FF_BRANCH=preview ./scripts/deploy.sh"
   },
   "dependencies": {
     "astro": "^5.13.0",
