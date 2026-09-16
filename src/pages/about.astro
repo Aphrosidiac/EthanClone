@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import body from '../fragments/about.html?raw';
+import '../styles/pages/about.css';
+import pages from '../data/pages.json';
+const p = pages.find((x) => x.slug === 'about')!;
+---
+<Base title={p.title} description={p.description} path="/about" cursor="menu" navTheme="dark" back={{ href: "/", label: "← Home" }} dockActive="about">
+  
+  <Fragment set:html={body} />
+  <script>
+    import '../scripts/pages/about';
+  </script>
+</Base>

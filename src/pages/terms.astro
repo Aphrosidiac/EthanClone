@@ -1,0 +1,11 @@
+---
+import Base from '../layouts/Base.astro';
+import body from '../fragments/terms.html?raw';
+import pages from '../data/pages.json';
+const p = pages.find((x) => x.slug === 'terms')!;
+---
+<Base title={p.title} description={p.description} path="/terms" cursor="none" navTheme="light" menu={false} back={{ href: "/", label: "← Home" }}>
+  <style is:global>.t-h{font-family:goldenbook,Italiana,Cormorant,serif;font-weight:300;text-transform:uppercase;font-size:clamp(17px,1.7vw,24px);letter-spacing:.04em;margin:46px 0 12px;scroll-margin-top:calc(var(--head-band) + 18px)}.t-p{font-size:14.5px;line-height:1.75;color:#3a342b;margin-bottom:12px;text-wrap:pretty}.t-p a{text-decoration:underline}.t-num{color:#9a8f7c;margin-right:10px}.credit{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:13px 2px;border-bottom:1px solid rgba(28,24,19,.12);font-size:13.5px}.credit a{text-decoration:underline}
+</style>
+  <Fragment set:html={body} />
+</Base>

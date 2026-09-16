@@ -1,0 +1,11 @@
+---
+import Base from '../layouts/Base.astro';
+import body from '../fragments/privacy.html?raw';
+import pages from '../data/pages.json';
+const p = pages.find((x) => x.slug === 'privacy')!;
+---
+<Base title={p.title} description={p.description} path="/privacy" cursor="none" navTheme="light" menu={false} back={{ href: "/", label: "← Home" }}>
+  <style is:global>.t-h{font-family:goldenbook,Italiana,Cormorant,serif;font-weight:300;text-transform:uppercase;font-size:clamp(17px,1.7vw,24px);letter-spacing:.04em;margin:46px 0 12px;scroll-margin-top:calc(var(--head-band) + 18px)}.t-p{font-size:14.5px;line-height:1.75;color:#3a342b;margin-bottom:12px;text-wrap:pretty}.t-p a{text-decoration:underline}.t-num{color:#9a8f7c;margin-right:10px}.t-l{font-size:14.5px;line-height:1.75;color:#3a342b;margin:0 0 12px;padding-left:20px}.t-l li{margin-bottom:4px}.credit{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:13px 2px;border-bottom:1px solid rgba(28,24,19,.12);font-size:13.5px}.credit a{text-decoration:underline}@media(max-width:520px){.credit{flex-direction:column;align-items:flex-start;gap:3px;padding:11px 2px}}.toc{display:grid;grid-template-columns:1fr;border-top:1px solid rgba(28,24,19,.12);margin:4vh 0 1vh}.toc a{display:flex;align-items:center;gap:12px;min-height:44px;padding:10px 2px;border-bottom:1px solid rgba(28,24,19,.12);font-size:13.5px;color:#3a342b;text-decoration:none;transition:color .25s ease}.toc a:hover{color:#1c1813}.toc .toc-n{color:#9a8f7c;font-size:var(--lab);letter-spacing:.16em}@media(min-width:700px){.toc{grid-template-columns:1fr 1fr;column-gap:34px}}
+</style>
+  <Fragment set:html={body} />
+</Base>

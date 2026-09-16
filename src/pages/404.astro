@@ -1,0 +1,11 @@
+---
+import Base from '../layouts/Base.astro';
+import body from '../fragments/404.html?raw';
+import pages from '../data/pages.json';
+const p = pages.find((x) => x.slug === '404')!;
+---
+<Base title={p.title} description={p.description} path="/404" robots="noindex, nofollow" cursor="none" navTheme="light" hasNav={false} menu={false}>
+  <style is:global>.nf[data-astro-cid-zetdm5md]{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:26px;padding:120px 22px 60px}.nf[data-astro-cid-zetdm5md] h1[data-astro-cid-zetdm5md]{font-size:clamp(38px,6.4vw,96px);line-height:1.05;color:#1c1813;max-width:18ch}.nf-back[data-astro-cid-zetdm5md]{font-size:var(--lab-nav);letter-spacing:.18em;color:#1c1813;border-bottom:1px solid rgba(28,24,19,.4);padding-bottom:4px;transition:color .3s}.nf-back[data-astro-cid-zetdm5md]:hover{color:var(--red)}
+</style>
+  <Fragment set:html={body} />
+</Base>

@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import body from '../fragments/commercial.html?raw';
+import '../styles/pages/gallery.css';
+import pages from '../data/pages.json';
+const p = pages.find((x) => x.slug === 'commercial')!;
+---
+<Base title={p.title} description={p.description} path="/commercial" cursor="menu" navTheme="dark" back={{ href: "/", label: "← Home" }} dockActive="galleries" ogImage="/img/commercial/rooftop-pool-w1200.webp">
+  <style is:global>
+      [data-hero] { opacity: 1 !important; }
+    </style>
+<style is:global>.com-kicker{font-size:var(--lab-quiet);color:#faf7f0d9;margin-top:18px}.com-plate{padding:clamp(70px,12vh,130px) 28px clamp(20px,4vh,50px);max-width:1560px;margin:0 auto}.com-plate:first-of-type{padding-top:clamp(90px,15vh,160px)}.com-label{border-top:1px solid rgba(36,26,16,.14);padding-top:18px}.com-name{font-size:var(--lab);color:#241a10}.com-sub{font-size:var(--lab);color:#9a8f7c;margin-top:4px}.com-kanji{font-family:Cormorant,serif;text-transform:none;letter-spacing:normal;font-weight:400;font-size:13px;color:#6a6154;margin-left:10px}.com-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4vw;margin-top:clamp(24px,4vh,44px)}.com-item{aspect-ratio:4/5;overflow:hidden}.com-item img{width:100%;height:100%;object-fit:cover;display:block;background:#ddd8cc;transition:opacity .3s ease}.com-item img:hover{opacity:.92}.com-item--wide{grid-column:span 2;aspect-ratio:18/11}.com-grid--two{grid-template-columns:1fr 1fr}.com-grid--one .com-item{grid-column:2}@media(max-width:700px){.com-grid,.com-grid--two{grid-template-columns:1fr;gap:12px}.com-item--wide{grid-column:auto;aspect-ratio:4/5}.com-grid--one .com-item{grid-column:auto}}.com-more-in{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}.com-rest{display:grid;grid-template-rows:0fr;margin-top:0;transition:grid-template-rows .62s cubic-bezier(.22,1,.36,1),margin-top .62s cubic-bezier(.22,1,.36,1)}.com-more-in:checked~.com-rest{grid-template-rows:1fr;margin-top:1.4vw}.com-rest>.com-grid{overflow:hidden;min-height:0}.com-grid--more{margin-top:0}.com-rest .com-item{opacity:0;transform:translateY(14px);transition:opacity .3s ease,transform .3s cubic-bezier(.22,1,.36,1)}.com-more-in:checked~.com-rest .com-item{opacity:1;transform:none;transition:opacity .52s ease .12s,transform .62s cubic-bezier(.22,1,.36,1) .12s}.com-more{display:inline-flex;align-items:center;gap:10px;min-height:44px;margin-top:clamp(14px,2vh,22px);font-size:var(--lab-quiet);color:#9a8f7c;cursor:pointer;transition:color .3s ease}.com-more:hover{color:#241a10}.com-more-in:focus-visible~.com-more{outline:1px solid #241a10;outline-offset:8px}.com-more-in:not(:checked)~.com-more .com-more-shut{display:none}.com-more-in:checked~.com-more .com-more-open{display:none}.com-more-mark{width:6px;height:6px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .3s ease}.com-more-in:checked~.com-more .com-more-mark{transform:translateY(1px) rotate(-135deg)}.com-item img{cursor:zoom-in}@media(max-width:700px){.com-more-in:checked~.com-rest{margin-top:12px}}@media(prefers-reduced-motion:reduce){.com-more,.com-more-mark,.com-rest,.com-rest .com-item,.com-more-in:checked~.com-rest,.com-more-in:checked~.com-rest .com-item{transition:none}.com-rest .com-item{transform:none}}
+</style>
+  <Fragment set:html={body} />
+  <script>
+    import '../scripts/pages/commercial';
+  </script>
+</Base>

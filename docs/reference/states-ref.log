@@ -1,0 +1,10 @@
+ok index-hover
+ok menu
+ok navhide
+ok cta
+ok editorials
+ok story-gallery
+ok gallery-scroll
+ok pricing
+ok dock
+FAIL m-menu page.tap: Timeout 30000ms exceeded.

@@ -1,0 +1,982 @@
+{
+ "meta": {
+  "url": "https://ethanwong.photography/pricing",
+  "title": "Wedding Photography Pricing · Ethan W · Washington DC & New York",
+  "capturedAt": "2026-09-16T12:50:51.679Z",
+  "viewport": {
+   "w": 1440,
+   "h": 900,
+   "dpr": 1
+  },
+  "viewportSuspect": null,
+  "scrollHeight": 4394,
+  "elementsMeasured": 1293,
+  "blockedStylesheets": 1,
+  "colorScheme": "normal",
+  "prefersDark": false
+ },
+ "typography": {
+  "combos": [
+   {
+    "value": "33.12px / 300 / 41.4 / 0.4px",
+    "count": 28,
+    "sample": "span.cr-name"
+   },
+   {
+    "value": "10px / 400 / normal / 1.6px",
+    "count": 16,
+    "sample": "dt.lab"
+   },
+   {
+    "value": "13px / 300 / normal / 2.08px",
+    "count": 12,
+    "sample": "span.lab.h-link"
+   },
+   {
+    "value": "12px / 400 / normal / 1.44px",
+    "count": 9,
+    "sample": "div.close-kick"
+   },
+   {
+    "value": "16px / 400 / 24 / 0px",
+    "count": 7,
+    "sample": "span.price-starts-cond"
+   },
+   {
+    "value": "20.8px / 400 / 24.96 / 0.21px",
+    "count": 6,
+    "sample": "b.price-starts-amt"
+   },
+   {
+    "value": "14px / 400 / 21 / 0.16px",
+    "count": 5,
+    "sample": "p.next-line"
+   },
+   {
+    "value": "16.32px / 400 / 24.48 / 0px",
+    "count": 5,
+    "sample": "dd"
+   },
+   {
+    "value": "12px / 400 / normal / 2.16px",
+    "count": 4,
+    "sample": "div.lab"
+   },
+   {
+    "value": "18px / 400 / 23.4 / 0.16px",
+    "count": 4,
+    "sample": "span.next-name"
+   },
+   {
+    "value": "12px / 600 / normal / 2.16px",
+    "count": 3,
+    "sample": "a.starts-jump"
+   },
+   {
+    "value": "14px / 400 / 20.3 / 0.16px",
+    "count": 3,
+    "sample": "div#rateInfo.tooltip"
+   },
+   {
+    "value": "16.96px / 400 / 26.29 / 0px",
+    "count": 3,
+    "sample": "p.promise-sub"
+   },
+   {
+    "value": "13px / 300 / 13 / 1.82px",
+    "count": 2,
+    "sample": "span.cta-roll-a"
+   },
+   {
+    "value": "26px / 300 / 28.6 / 0.26px",
+    "count": 2,
+    "sample": "span#payRetainer.pay-amt"
+   },
+   {
+    "value": "12px / 400 / normal / 0.48px",
+    "count": 2,
+    "sample": "p"
+   },
+   {
+    "value": "10px / 400 / normal / 1.8px",
+    "count": 2,
+    "sample": "h2.lab.cr-head"
+   },
+   {
+    "value": "29px / 400 / 29 / 0px",
+    "count": 1,
+    "sample": "a.logo"
+   },
+   {
+    "value": "32px / 700 / normal / 0px",
+    "count": 1,
+    "sample": "h1.sr"
+   },
+   {
+    "value": "115.2px / 300 / 115.2 / 0px",
+    "count": 1,
+    "sample": "div.disp"
+   },
+   {
+    "value": "24px / 300 / normal / 0px",
+    "count": 1,
+    "sample": "p"
+   },
+   {
+    "value": "52px / 300 / 57.2 / 0.52px",
+    "count": 1,
+    "sample": "div#price-display"
+   },
+   {
+    "value": "12px / 600 / 17.4 / 1.44px",
+    "count": 1,
+    "sample": "span.tooltip-title"
+   },
+   {
+    "value": "14px / 400 / normal / 1.68px",
+    "count": 1,
+    "sample": "label"
+   },
+   {
+    "value": "10px / 400 / normal / 2px",
+    "count": 1,
+    "sample": "div.lab.promise-kick"
+   },
+   {
+    "value": "47px / 300 / 48.88 / 0px",
+    "count": 1,
+    "sample": "p.disp.promise-line"
+   },
+   {
+    "value": "12px / 600 / normal / 0.96px",
+    "count": 1,
+    "sample": "button#estimateExplainToggle"
+   },
+   {
+    "value": "26px / 300 / 28.6 / 0px",
+    "count": 1,
+    "sample": "span#estimateIndicatorAmount.indicator-amount"
+   },
+   {
+    "value": "16px / 300 / 24.8 / 0px",
+    "count": 1,
+    "sample": "p.price-starts-note"
+   }
+  ],
+  "families": [
+   {
+    "value": "Hanken Grotesk",
+    "count": 194,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "goldenbook",
+    "count": 88,
+    "sample": "div.disp"
+   },
+   {
+    "value": "Cormorant",
+    "count": 30,
+    "sample": "p"
+   },
+   {
+    "value": "Pinyon Script",
+    "count": 1,
+    "sample": "a.logo"
+   }
+  ],
+  "sizes": [
+   {
+    "value": "33.12px",
+    "count": 28,
+    "sample": "span.cr-name"
+   },
+   {
+    "value": "12px",
+    "count": 20,
+    "sample": "div.lab"
+   },
+   {
+    "value": "10px",
+    "count": 19,
+    "sample": "div.lab.promise-kick"
+   },
+   {
+    "value": "13px",
+    "count": 14,
+    "sample": "span.lab.h-link"
+   },
+   {
+    "value": "14px",
+    "count": 9,
+    "sample": "div#rateInfo.tooltip"
+   },
+   {
+    "value": "16px",
+    "count": 8,
+    "sample": "span.price-starts-cond"
+   },
+   {
+    "value": "20.8px",
+    "count": 6,
+    "sample": "b.price-starts-amt"
+   },
+   {
+    "value": "16.32px",
+    "count": 5,
+    "sample": "dd"
+   },
+   {
+    "value": "18px",
+    "count": 4,
+    "sample": "span.next-name"
+   },
+   {
+    "value": "26px",
+    "count": 3,
+    "sample": "span#payRetainer.pay-amt"
+   },
+   {
+    "value": "16.96px",
+    "count": 3,
+    "sample": "p.promise-sub"
+   },
+   {
+    "value": "29px",
+    "count": 1,
+    "sample": "a.logo"
+   },
+   {
+    "value": "32px",
+    "count": 1,
+    "sample": "h1.sr"
+   },
+   {
+    "value": "115.2px",
+    "count": 1,
+    "sample": "div.disp"
+   },
+   {
+    "value": "24px",
+    "count": 1,
+    "sample": "p"
+   },
+   {
+    "value": "52px",
+    "count": 1,
+    "sample": "div#price-display"
+   },
+   {
+    "value": "47px",
+    "count": 1,
+    "sample": "p.disp.promise-line"
+   }
+  ],
+  "weights": [
+   {
+    "value": "400",
+    "count": 200,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "300",
+    "count": 105,
+    "sample": "button#menuOpen.menu-btn"
+   },
+   {
+    "value": "600",
+    "count": 7,
+    "sample": "a.starts-jump"
+   },
+   {
+    "value": "700",
+    "count": 1,
+    "sample": "h1.sr"
+   }
+  ],
+  "lineHeights": [
+   {
+    "value": "76.61",
+    "count": 48,
+    "sample": "span.disp"
+   },
+   {
+    "value": "41.4",
+    "count": 28,
+    "sample": "span.cr-name"
+   },
+   {
+    "value": "24",
+    "count": 7,
+    "sample": "span.price-starts-cond"
+   },
+   {
+    "value": "24.96",
+    "count": 6,
+    "sample": "b.price-starts-amt"
+   },
+   {
+    "value": "13",
+    "count": 5,
+    "sample": "a.lab.nav-cta.cta-wired"
+   },
+   {
+    "value": "21",
+    "count": 5,
+    "sample": "p.next-line"
+   },
+   {
+    "value": "24.48",
+    "count": 5,
+    "sample": "dd"
+   },
+   {
+    "value": "23.4",
+    "count": 4,
+    "sample": "span.next-name"
+   },
+   {
+    "value": "20.3",
+    "count": 3,
+    "sample": "div#rateInfo.tooltip"
+   },
+   {
+    "value": "28.6",
+    "count": 3,
+    "sample": "span#payRetainer.pay-amt"
+   },
+   {
+    "value": "26.29",
+    "count": 3,
+    "sample": "p.promise-sub"
+   },
+   {
+    "value": "29",
+    "count": 1,
+    "sample": "a.logo"
+   }
+  ],
+  "letterSpacing": [
+   {
+    "value": "0px",
+    "count": 184,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "0.16px",
+    "count": 32,
+    "sample": "div.price-card.no-shoot-type"
+   },
+   {
+    "value": "0.4px",
+    "count": 28,
+    "sample": "span.cr-name"
+   },
+   {
+    "value": "1.6px",
+    "count": 16,
+    "sample": "dt.lab"
+   },
+   {
+    "value": "2.08px",
+    "count": 13,
+    "sample": "span.lab.h-link"
+   },
+   {
+    "value": "1.44px",
+    "count": 10,
+    "sample": "span.tooltip-title"
+   },
+   {
+    "value": "2.16px",
+    "count": 8,
+    "sample": "div.lab"
+   },
+   {
+    "value": "0.21px",
+    "count": 6,
+    "sample": "b.price-starts-amt"
+   },
+   {
+    "value": "1.82px",
+    "count": 4,
+    "sample": "a.lab.nav-cta.cta-wired"
+   },
+   {
+    "value": "0.48px",
+    "count": 3,
+    "sample": "div.fine-print"
+   }
+  ],
+  "loadedFaces": [
+   "goldenbook 600 normal",
+   "goldenbook 300 normal",
+   "goldenbook 400 normal",
+   "goldenbook 700 normal",
+   "orpheuspro 400 normal",
+   "Cormorant 300 normal",
+   "Cormorant 400 normal",
+   "Cormorant 300 italic",
+   "Cormorant 400 italic",
+   "Pinyon Script 400 normal",
+   "Italiana 400 normal",
+   "Hanken Grotesk Variable 100 900 normal"
+  ],
+  "bodyMeasureChars": 82
+ },
+ "color": {
+  "text": [
+   {
+    "value": "rgb(36, 26, 16)",
+    "count": 28,
+    "sample": "span.cr-name"
+   },
+   {
+    "value": "rgb(28, 24, 19)",
+    "count": 26,
+    "sample": "span.lab.h-link"
+   },
+   {
+    "value": "rgb(106, 97, 84)",
+    "count": 23,
+    "sample": "p"
+   },
+   {
+    "value": "rgb(154, 143, 124)",
+    "count": 20,
+    "sample": "div.lab"
+   },
+   {
+    "value": "rgb(74, 66, 55)",
+    "count": 14,
+    "sample": "a.starts-jump"
+   },
+   {
+    "value": "rgb(154, 146, 132)",
+    "count": 7,
+    "sample": "div.lab"
+   },
+   {
+    "value": "rgb(244, 239, 228)",
+    "count": 3,
+    "sample": "span.cta-roll-b"
+   },
+   {
+    "value": "rgb(155, 17, 32)",
+    "count": 3,
+    "sample": "div.lab.promise-kick"
+   },
+   {
+    "value": "rgb(74, 65, 54)",
+    "count": 1,
+    "sample": "button#estimateExplainToggle"
+   }
+  ],
+  "background": [
+   {
+    "value": "rgb(155, 17, 32)",
+    "count": 28,
+    "sample": "span.cr-dot"
+   },
+   {
+    "value": "rgb(28, 24, 19)",
+    "count": 4,
+    "sample": "span"
+   },
+   {
+    "value": "rgb(253, 252, 250)",
+    "count": 4,
+    "sample": "div.price-card.no-shoot-type"
+   },
+   {
+    "value": "rgb(239, 237, 231)",
+    "count": 1,
+    "sample": "div"
+   },
+   {
+    "value": "rgba(253, 252, 250, 0.72)",
+    "count": 1,
+    "sample": "select#shootType.select-chevron"
+   },
+   {
+    "value": "rgb(244, 239, 228)",
+    "count": 1,
+    "sample": "div#cardClose.card-close"
+   },
+   {
+    "value": "rgba(36, 26, 16, 0.14)",
+    "count": 1,
+    "sample": "div.cr-rule"
+   }
+  ],
+  "border": [
+   {
+    "value": "rgba(28, 24, 19, 0.12)",
+    "count": 12,
+    "sample": "div.promise-row"
+   },
+   {
+    "value": "rgb(28, 24, 19)",
+    "count": 4,
+    "sample": "a.lab.nav-cta.cta-wired"
+   },
+   {
+    "value": "rgba(36, 26, 16, 0.14)",
+    "count": 4,
+    "sample": "div.price-card.no-shoot-type"
+   },
+   {
+    "value": "rgba(28, 24, 19, 0.14)",
+    "count": 2,
+    "sample": "div#price-bar"
+   },
+   {
+    "value": "rgba(28, 24, 19, 0.22)",
+    "count": 1,
+    "sample": "a.starts-jump"
+   },
+   {
+    "value": "rgba(28, 24, 19, 0.3)",
+    "count": 1,
+    "sample": "div#rateInfo.tooltip"
+   },
+   {
+    "value": "rgb(155, 17, 32)",
+    "count": 1,
+    "sample": "select#shootType.select-chevron"
+   }
+  ]
+ },
+ "spacing": {
+  "margins_padding": [
+   {
+    "value": "12.8px",
+    "count": 24,
+    "sample": "div.promise-row"
+   },
+   {
+    "value": "21.6px",
+    "count": 9,
+    "sample": "div.close-facts"
+   },
+   {
+    "value": "16px",
+    "count": 8,
+    "sample": "div#rateInfo.tooltip"
+   },
+   {
+    "value": "52px",
+    "count": 7,
+    "sample": "div.price-card.no-shoot-type"
+   },
+   {
+    "value": "27px",
+    "count": 5,
+    "sample": "div.lab"
+   },
+   {
+    "value": "23.4px",
+    "count": 5,
+    "sample": "div#price-bar"
+   },
+   {
+    "value": "24px",
+    "count": 4,
+    "sample": "header.site.nav-on-light"
+   },
+   {
+    "value": "10px",
+    "count": 4,
+    "sample": "a.lab.nav-cta.cta-wired"
+   },
+   {
+    "value": "63px",
+    "count": 4,
+    "sample": "p"
+   },
+   {
+    "value": "14px",
+    "count": 4,
+    "sample": "button#rateInfoIcon.info-icon"
+   },
+   {
+    "value": "18px",
+    "count": 4,
+    "sample": "div.close-kick"
+   },
+   {
+    "value": "18.4px",
+    "count": 4,
+    "sample": "a.cta-btn"
+   },
+   {
+    "value": "36px",
+    "count": 4,
+    "sample": "div.cta-row"
+   },
+   {
+    "value": "13.6px",
+    "count": 3,
+    "sample": "select#shootType.select-chevron"
+   },
+   {
+    "value": "3.36px",
+    "count": 3,
+    "sample": "span.next-num"
+   },
+   {
+    "value": "-4.37px",
+    "count": 3,
+    "sample": "span#payRetainer.pay-amt"
+   },
+   {
+    "value": "45px",
+    "count": 3,
+    "sample": "section.promise"
+   },
+   {
+    "value": "-1px",
+    "count": 2,
+    "sample": "h1.sr"
+   },
+   {
+    "value": "-14px",
+    "count": 2,
+    "sample": "button#rateInfoIcon.info-icon"
+   },
+   {
+    "value": "28px",
+    "count": 2,
+    "sample": "div.pay-stop"
+   },
+   {
+    "value": "72px",
+    "count": 2,
+    "sample": "section.cr"
+   },
+   {
+    "value": "14.4px",
+    "count": 2,
+    "sample": "h2.lab.cr-head"
+   },
+   {
+    "value": "9px",
+    "count": 1,
+    "sample": "a.logo"
+   },
+   {
+    "value": "22px",
+    "count": 1,
+    "sample": "a.lab.nav-cta.cta-wired"
+   },
+   {
+    "value": "162px",
+    "count": 1,
+    "sample": "main.page-open"
+   },
+   {
+    "value": "126px",
+    "count": 1,
+    "sample": "main.page-open"
+   },
+   {
+    "value": "86.4px",
+    "count": 1,
+    "sample": "main.page-open"
+   },
+   {
+    "value": "25.6px",
+    "count": 1,
+    "sample": "a.starts-jump"
+   },
+   {
+    "value": "28.8px",
+    "count": 1,
+    "sample": "div#price-bar"
+   },
+   {
+    "value": "14.66px",
+    "count": 1,
+    "sample": "div#price-bar"
+   }
+  ],
+  "gaps": [
+   {
+    "value": "28px",
+    "count": 12,
+    "sample": "div.promise-row"
+   },
+   {
+    "value": "5px",
+    "count": 5,
+    "sample": "div.next-body"
+   },
+   {
+    "value": "6px",
+    "count": 2,
+    "sample": "div.pay-stop"
+   },
+   {
+    "value": "16px",
+    "count": 2,
+    "sample": "div#estimateCtaRow.cta-row.cta-row--under-estimate"
+   },
+   {
+    "value": "24px",
+    "count": 2,
+    "sample": "a.close-row.close-row--next"
+   },
+   {
+    "value": "22px",
+    "count": 1,
+    "sample": "div.h-left"
+   },
+   {
+    "value": "10px",
+    "count": 1,
+    "sample": "button#menuOpen.menu-btn"
+   },
+   {
+    "value": "4px",
+    "count": 1,
+    "sample": "span.bars"
+   },
+   {
+    "value": "21.6px",
+    "count": 1,
+    "sample": "div.h-right.h-actions"
+   },
+   {
+    "value": "8.4px",
+    "count": 1,
+    "sample": "a.starts-jump"
+   },
+   {
+    "value": "8px",
+    "count": 1,
+    "sample": "div#estimateExplainer.estimate-explainer"
+   },
+   {
+    "value": "6.4px",
+    "count": 1,
+    "sample": "button#estimateExplainToggle"
+   },
+   {
+    "value": "5.6px",
+    "count": 1,
+    "sample": "div#estimateIndicator.estimate-indicator"
+   }
+  ]
+ },
+ "shape": {
+  "radii": [
+   {
+    "value": "3px",
+    "count": 8,
+    "sample": "a.starts-jump"
+   },
+   {
+    "value": "2px",
+    "count": 1,
+    "sample": "a.lab.h-login.h-login--desk"
+   },
+   {
+    "value": "pill (>=9999px)",
+    "count": 1,
+    "sample": "a.lab.nav-cta.cta-wired"
+   }
+  ],
+  "borders": [
+   {
+    "value": "1px solid",
+    "count": 25,
+    "sample": "a.lab.nav-cta.cta-wired"
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(28, 24, 19, 0.16) 0px 12px 30px 0px",
+    "count": 2,
+    "sample": "a.cta-btn"
+   }
+  ]
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.85s",
+    "count": 8,
+    "sample": "div.lab"
+   },
+   {
+    "value": "0.3s",
+    "count": 7,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "0.2s",
+    "count": 4,
+    "sample": "button#rateInfoIcon.info-icon"
+   },
+   {
+    "value": "0.5s",
+    "count": 3,
+    "sample": "header.site.nav-on-light"
+   },
+   {
+    "value": "0.62s",
+    "count": 3,
+    "sample": "div.h-left"
+   },
+   {
+    "value": "0.35s",
+    "count": 3,
+    "sample": "a.lab.nav-cta.cta-wired"
+   },
+   {
+    "value": "0.18s",
+    "count": 2,
+    "sample": "div#rateInfo.tooltip"
+   },
+   {
+    "value": "0.4s",
+    "count": 2,
+    "sample": "span.lab.close-meta"
+   },
+   {
+    "value": "0.24s",
+    "count": 1,
+    "sample": "span.starts-jump-arrow"
+   },
+   {
+    "value": "0.28s",
+    "count": 1,
+    "sample": "span.toggle-icon"
+   },
+   {
+    "value": "0.22s",
+    "count": 1,
+    "sample": "div#estimateIndicator.estimate-indicator"
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 20,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "count": 9,
+    "sample": "div.lab"
+   },
+   {
+    "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "count": 5,
+    "sample": "div.h-left"
+   },
+   {
+    "value": "cubic-bezier(0.3, 0.7, 0.4, 1)",
+    "count": 1,
+    "sample": "span.toggle-icon"
+   }
+  ],
+  "keyframeAnimations": [
+   {
+    "value": "cr-run 46s linear",
+    "count": 2,
+    "sample": "div.cr-track"
+   }
+  ]
+ },
+ "layout": {
+  "breakpoints": [
+   "300px",
+   "340px",
+   "420px",
+   "480px",
+   "520px",
+   "540px",
+   "560px",
+   "600px",
+   "640px",
+   "641px",
+   "680px",
+   "699px",
+   "700px",
+   "720px",
+   "820px",
+   "860px",
+   "880px",
+   "1024px"
+  ],
+  "containerMaxWidths": [
+   {
+    "value": "1360px",
+    "count": 5,
+    "sample": "div.cr-rule"
+   },
+   {
+    "value": "640px",
+    "count": 3,
+    "sample": "div.price-card.no-shoot-type"
+   },
+   {
+    "value": "468.939px",
+    "count": 3,
+    "sample": "p.promise-sub"
+   },
+   {
+    "value": "980px",
+    "count": 1,
+    "sample": "div"
+   },
+   {
+    "value": "585.984px",
+    "count": 1,
+    "sample": "p"
+   }
+  ],
+  "gridTemplates": [
+   {
+    "value": "2 cols — 16.3281px 605.672px",
+    "count": 3,
+    "sample": "li.next-step"
+   },
+   {
+    "value": "3 cols — 650.594px 90.8125px 650.594px",
+    "count": 1,
+    "sample": "header.site.nav-on-light"
+   }
+  ],
+  "zIndexLayers": [
+   {
+    "value": "60",
+    "count": 1,
+    "sample": "header.site.nav-on-light"
+   },
+   {
+    "value": "1",
+    "count": 1,
+    "sample": "span.cta-roll"
+   },
+   {
+    "value": "140",
+    "count": 1,
+    "sample": "div#rateInfo.tooltip"
+   },
+   {
+    "value": "10",
+    "count": 1,
+    "sample": "select#shootType.select-chevron"
+   },
+   {
+    "value": "120",
+    "count": 1,
+    "sample": "div#estimateIndicator.estimate-indicator"
+   }
+  ],
+  "hasHorizontalOverflow": false,
+  "widestNode": "span.cr-cell right=5262"
+ }
+}

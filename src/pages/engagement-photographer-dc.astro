@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import body from '../fragments/engagement-photographer-dc.html?raw';
+import '../styles/pages/svc.css';
+import pages from '../data/pages.json';
+const p = pages.find((x) => x.slug === 'engagement-photographer-dc')!;
+---
+<Base title={p.title} description={p.description} path="/engagement-photographer-dc" cursor="menu" navTheme="dark" back={{ href: "/", label: "← Home" }} ogImage="/img/engagements/dsc01297-w1200.webp">
+  
+  <Fragment set:html={body} />
+  <script>
+    import '../scripts/pages/svc';
+  </script>
+</Base>

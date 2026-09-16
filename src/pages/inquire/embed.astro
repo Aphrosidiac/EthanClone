@@ -1,0 +1,41 @@
+---
+/** The inquiry form, framed by /contact exactly as the reference frames its portal form —
+ *  except this one lives on our origin. Markup and stylesheet are the portal embed's; the
+ *  behaviour (card accordion, marks, the estimate lane, thank-you card, height reporting) is
+ *  ours in scripts/inquire-embed.ts. Nothing is sent anywhere: the thank-you card renders locally. */
+import '../../styles/embed.css';
+import body from '../../fragments/_inquire-embed.html?raw';
+import { site } from '../../lib/site';
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex" />
+    <title>Inquire, {site.name}</title>
+    <script is:inline>
+      (function () {
+        var r = document.documentElement;
+        if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        r.setAttribute('data-arrive', 'hold');
+        var went = false;
+        function go() { if (went) return; went = true; r.setAttribute('data-arrive', 'go'); }
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(go, go); else go();
+        setTimeout(go, 700);
+        addEventListener('pageshow', go);
+      })();
+    </script>
+    <style is:global>
+      .inq-fonts { --font-hanken: "Hanken Grotesk", "Hanken Grotesk Fallback"; --font-italiana: "Italiana", "Italiana Fallback"; }
+      @font-face { font-family: Italiana; font-style: normal; font-display: swap; font-weight: 400; src: url(/fonts/italiana-latin-400-normal.woff2) format("woff2"); }
+      @font-face { font-family: Pinyon Script; font-style: normal; font-display: swap; font-weight: 400; src: url(/fonts/pinyon-script-latin-400-normal.woff2) format("woff2"); }
+    </style>
+  </head>
+  <body>
+    <Fragment set:html={body} />
+    <script>
+      import '../../scripts/inquire-embed';
+    </script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import body from '../fragments/film-wedding-photographer-dc.html?raw';
+import '../styles/pages/svc.css';
+import pages from '../data/pages.json';
+const p = pages.find((x) => x.slug === 'film-wedding-photographer-dc')!;
+---
+<Base title={p.title} description={p.description} path="/film-wedding-photographer-dc" cursor="menu" navTheme="dark" back={{ href: "/", label: "← Home" }} ogImage="/img/story/c04-w1200.webp">
+  
+  <Fragment set:html={body} />
+  <script>
+    import '../scripts/pages/svc';
+  </script>
+</Base>

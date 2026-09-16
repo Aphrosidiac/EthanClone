@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import body from '../fragments/engagements.html?raw';
+import '../styles/pages/gallery.css';
+import pages from '../data/pages.json';
+const p = pages.find((x) => x.slug === 'engagements')!;
+---
+<Base title={p.title} description={p.description} path="/engagements" cursor="menu" navTheme="dark" back={{ href: "/", label: "← Home" }} dockActive="galleries" ogImage="/img/engagements/dsc01297-w1200.webp">
+  <style is:global>
+      [data-hero] { opacity: 1 !important; }
+    </style>
+<style is:global>.ew-frame{display:block;object-fit:cover;object-position:center;background-color:#e8e3d8}.ew-frame--para{width:100%;height:114%;margin-top:-7%}.ew-frame--flat{width:100%;height:100%}@media(max-width:640px){:has(>.ew-frame){height:auto!important;max-height:none!important;aspect-ratio:auto!important}.ew-frame{position:static!important;width:100%!important;height:auto!important;max-height:none!important;margin:0!important;object-fit:contain;transform:none!important}}.ew-moment{width:min(92vw,940px);margin-left:auto;margin-right:auto}.ew-moment--wide{width:min(94vw,1080px)}.ew-moment--pano{width:min(96vw,1240px)}@media(max-width:640px){.ew-moment,.ew-moment--wide,.ew-moment--pano{width:74vw;margin-top:clamp(52px,10vh,96px)!important;margin-bottom:clamp(44px,8vh,80px)}}
+</style>
+  <Fragment set:html={body} />
+  <script>
+    import '../scripts/pages/gallery';
+  </script>
+</Base>

@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro';
+import body from '../../fragments/editorials_exchange.html?raw';
+import '../../styles/pages/exchange.css';
+import pages from '../../data/pages.json';
+const p = pages.find((x) => x.slug === 'editorials_exchange')!;
+---
+<Base title={p.title} description={p.description} path="/editorials/exchange" cursor="menu" navTheme="dark" back={{ href: "/", label: "← Home" }} dockActive="galleries" ogImage="/img/editorials/a7300839-w1200.webp">
+  <style is:global>.ew-frame{display:block;object-fit:cover;object-position:center;background-color:#e8e3d8}.ew-frame--para{width:100%;height:114%;margin-top:-7%}.ew-frame--flat{width:100%;height:100%}@media(max-width:640px){:has(>.ew-frame){height:auto!important;max-height:none!important;aspect-ratio:auto!important}.ew-frame{position:static!important;width:100%!important;height:auto!important;max-height:none!important;margin:0!important;object-fit:contain;transform:none!important}}.ew-moment{width:min(92vw,940px);margin-left:auto;margin-right:auto}.ew-moment--wide{width:min(94vw,1080px)}.ew-moment--pano{width:min(96vw,1240px)}@media(max-width:640px){.ew-moment,.ew-moment--wide,.ew-moment--pano{width:74vw;margin-top:clamp(52px,10vh,96px)!important;margin-bottom:clamp(44px,8vh,80px)}}
+</style>
+<style is:global>.close-row{color:#241a10;transition:color .35s ease,transform .5s cubic-bezier(.22,1,.36,1)}.next-tag{display:block;font-size:var(--lab-quiet);letter-spacing:.16em;color:var(--red);margin-bottom:10px}.close-row--next{align-items:flex-end!important}.close-row:hover{transform:translate(1.1vw)}@media(prefers-reduced-motion:reduce){.close-row:hover{color:var(--red)}}.close-meta{opacity:0;transform:translate(-8px);transition:opacity .4s ease .06s,transform .4s ease .06s}.close-row:hover .close-meta{opacity:1;transform:none}@media(hover:none){.close-meta{opacity:1}}@media(max-width:640px){.close-meta{display:none}}
+</style>
+  <Fragment set:html={body} />
+  <script>
+    import '../../scripts/pages/exchange';
+  </script>
+</Base>

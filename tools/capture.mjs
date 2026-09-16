@@ -9,7 +9,8 @@ const paths = pathsArg ? pathsArg.split(',') : ['/', '/about', '/weddings', '/en
 const [w, h] = size.split('x').map(Number);
 fs.mkdirSync(out, { recursive: true });
 const browser = await chromium.launch({ executablePath: '/Users/fakhrul/Library/Caches/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-mac-arm64/chrome-headless-shell' });
-const ctx = await browser.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: 1, reducedMotion: 'no-preference' });
+const mobile = w < 700;
+const ctx = await browser.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: 1, reducedMotion: 'no-preference', isMobile: mobile, hasTouch: mobile, ...(mobile ? { userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1' } : {}) });
 await ctx.addInitScript(() => {
   let s = 1234567; Math.random = () => { s = (s * 16807) % 2147483647; return (s - 1) / 2147483646; };
   try { sessionStorage.setItem('ew:intro', '1'); } catch {}
@@ -21,6 +22,7 @@ for (const p of paths) {
   try {
     await page.goto(base + p, { waitUntil: 'load', timeout: 60000 });
   } catch (e) { console.log('goto failed', p, e.message); continue; }
+  try {
   await page.waitForFunction(() => document.body.classList.contains('is-ready') && !document.querySelector('[data-ew-loader]'), null, { timeout: 15000 }).catch(() => {});
   await sleep(3200);
   await page.screenshot({ path: `${out}/${slug(p)}-top-${w}.png` });
@@ -32,5 +34,6 @@ for (const p of paths) {
   await sleep(900);
   await page.screenshot({ path: `${out}/${slug(p)}-full-${w}.png`, fullPage: true }).catch((e) => console.log('full failed', p, e.message));
   console.log('captured', p, total);
+  } catch (e) { console.log('capture failed', p, e.message); }
 }
 await browser.close();

@@ -6,6 +6,7 @@ import pages from '../data/pages.json';
 const p = pages.find((x) => x.slug === 'index')!;
 ---
 <Base title={p.title} description={p.description} path="/" cursor="always" navTheme="dark" dockActive="home">
+  
   <Fragment set:html={body} />
   <script>
     import '../scripts/pages/index';

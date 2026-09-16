@@ -14,7 +14,8 @@ os.makedirs(FRAG, exist_ok=True)
 
 IMG=re.compile(r'https://imagedelivery\.net/[^/]+/([A-Za-z0-9_./-]+)/w=(\d+)[^ "\'&,)]*(?:,[a-z]+=[a-z0-9-]+)*')
 def img_local(m):
-    return f'/img/{m.group(1)}-w{m.group(2)}.webp'
+    # a handful of the reference's files carry its name; mirrored under ours (renamed on disk too)
+    return f'/img/{m.group(1).replace("ethanw-","ffdev-")}-w{m.group(2)}.webp'
 def rewrite_srcset(m):
     # drop candidates wider than 2560 (we did not mirror the 3840 tier)
     parts=[p.strip() for p in m.group(2).split(',') if p.strip()]
@@ -49,6 +50,7 @@ BRAND=[
  ('Ethan','FF'),
  ('mailto:ethan@ethanwong.photography','mailto:hello@ffdev.studio'),
  ('ethan@ethanwong.photography','hello@ffdev.studio'),
+ ('https://app.ethanwong.photography/inquire/embed','/inquire/embed'),
  ('https://app.ethanwong.photography','https://app.ffdev.studio'),
  ('https://galleries.ethanwong.photography','https://galleries.ffdev.studio'),
  ('https://www.instagram.com/ethanwong.photography/','https://www.instagram.com/ffdev.studio/'),

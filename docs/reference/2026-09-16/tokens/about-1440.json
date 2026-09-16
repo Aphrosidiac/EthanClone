@@ -1,0 +1,817 @@
+{
+ "meta": {
+  "url": "https://ethanwong.photography/about",
+  "title": "About · Ethan W · Wedding & Editorial Photographer, Washington DC & New York",
+  "capturedAt": "2026-09-16T12:50:45.250Z",
+  "viewport": {
+   "w": 1440,
+   "h": 900,
+   "dpr": 1
+  },
+  "viewportSuspect": null,
+  "scrollHeight": 12460,
+  "elementsMeasured": 1267,
+  "blockedStylesheets": 1,
+  "colorScheme": "normal",
+  "prefersDark": false
+ },
+ "typography": {
+  "combos": [
+   {
+    "value": "11px / 400 / 17.05 / 0.33px",
+    "count": 14,
+    "sample": "figcaption.trav-cap"
+   },
+   {
+    "value": "12px / 400 / normal / 2.16px",
+    "count": 8,
+    "sample": "div.lab.trav-coords"
+   },
+   {
+    "value": "10px / 400 / normal / 1.8px",
+    "count": 7,
+    "sample": "span.lab.ab-index"
+   },
+   {
+    "value": "25px / 400 / 40 / 0px",
+    "count": 7,
+    "sample": "p.ab-body"
+   },
+   {
+    "value": "86.4px / 300 / 84.67 / 0px",
+    "count": 6,
+    "sample": "h2.disp.ab-title"
+   },
+   {
+    "value": "66.24px / 300 / 66.24 / 0px",
+    "count": 6,
+    "sample": "span.disp.trav-name"
+   },
+   {
+    "value": "13px / 300 / normal / 2.08px",
+    "count": 5,
+    "sample": "span.lab.h-link"
+   },
+   {
+    "value": "13px / 300 / normal / 1.56px",
+    "count": 4,
+    "sample": "span.lab"
+   },
+   {
+    "value": "13px / 300 / 13 / 1.82px",
+    "count": 2,
+    "sample": "span.cta-roll-a"
+   },
+   {
+    "value": "15.12px / 300 / 22.68 / 0px",
+    "count": 2,
+    "sample": "p"
+   },
+   {
+    "value": "11px / 400 / 17.6 / 1.76px",
+    "count": 2,
+    "sample": "span.lab.ab-photo-meta"
+   },
+   {
+    "value": "21px / 500 / 33.6 / 0px",
+    "count": 2,
+    "sample": "p.trav-note"
+   },
+   {
+    "value": "10px / 400 / normal / 1.6px",
+    "count": 2,
+    "sample": "span.lab.next-tag"
+   },
+   {
+    "value": "29px / 400 / 29 / 0px",
+    "count": 1,
+    "sample": "a.logo"
+   },
+   {
+    "value": "10px / 400 / normal / 1.2px",
+    "count": 1,
+    "sample": "div.lab.ab-hero-kicker"
+   },
+   {
+    "value": "302.4px / 300 / 272.16 / 0px",
+    "count": 1,
+    "sample": "h1.disp.ab-hero-word"
+   },
+   {
+    "value": "48.96px / 400 / 48.96 / 0px",
+    "count": 1,
+    "sample": "div.ab-hero-sig"
+   },
+   {
+    "value": "19px / 300 / normal / 0px",
+    "count": 1,
+    "sample": "p.ab-preface"
+   },
+   {
+    "value": "13px / 400 / normal / 2.08px",
+    "count": 1,
+    "sample": "span.ab-peek-label"
+   },
+   {
+    "value": "16px / 400 / 16 / 2.08px",
+    "count": 1,
+    "sample": "span.ab-peek-face"
+   },
+   {
+    "value": "12px / 400 / normal / 1.44px",
+    "count": 1,
+    "sample": "p.ab-early-cap.lab"
+   },
+   {
+    "value": "29px / 400 / 46.4 / 0px",
+    "count": 1,
+    "sample": "p.ab-body"
+   }
+  ],
+  "families": [
+   {
+    "value": "Hanken Grotesk",
+    "count": 410,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "goldenbook",
+    "count": 49,
+    "sample": "h1.disp.ab-hero-word"
+   },
+   {
+    "value": "Cormorant",
+    "count": 13,
+    "sample": "p.ab-preface"
+   },
+   {
+    "value": "Pinyon Script",
+    "count": 2,
+    "sample": "a.logo"
+   }
+  ],
+  "sizes": [
+   {
+    "value": "11px",
+    "count": 16,
+    "sample": "span.lab.ab-photo-meta"
+   },
+   {
+    "value": "13px",
+    "count": 12,
+    "sample": "span.lab.h-link"
+   },
+   {
+    "value": "10px",
+    "count": 10,
+    "sample": "div.lab.ab-hero-kicker"
+   },
+   {
+    "value": "12px",
+    "count": 9,
+    "sample": "div.lab.trav-coords"
+   },
+   {
+    "value": "25px",
+    "count": 7,
+    "sample": "p.ab-body"
+   },
+   {
+    "value": "86.4px",
+    "count": 6,
+    "sample": "h2.disp.ab-title"
+   },
+   {
+    "value": "66.24px",
+    "count": 6,
+    "sample": "span.disp.trav-name"
+   },
+   {
+    "value": "29px",
+    "count": 2,
+    "sample": "a.logo"
+   },
+   {
+    "value": "15.12px",
+    "count": 2,
+    "sample": "p"
+   },
+   {
+    "value": "21px",
+    "count": 2,
+    "sample": "p.trav-note"
+   },
+   {
+    "value": "302.4px",
+    "count": 1,
+    "sample": "h1.disp.ab-hero-word"
+   },
+   {
+    "value": "48.96px",
+    "count": 1,
+    "sample": "div.ab-hero-sig"
+   },
+   {
+    "value": "19px",
+    "count": 1,
+    "sample": "p.ab-preface"
+   },
+   {
+    "value": "16px",
+    "count": 1,
+    "sample": "span.ab-peek-face"
+   }
+  ],
+  "weights": [
+   {
+    "value": "400",
+    "count": 402,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "300",
+    "count": 70,
+    "sample": "button#menuOpen.menu-btn"
+   },
+   {
+    "value": "500",
+    "count": 2,
+    "sample": "p.trav-note"
+   }
+  ],
+  "lineHeights": [
+   {
+    "value": "76.61",
+    "count": 36,
+    "sample": "span.disp"
+   },
+   {
+    "value": "17.05",
+    "count": 14,
+    "sample": "figcaption.trav-cap"
+   },
+   {
+    "value": "40",
+    "count": 7,
+    "sample": "p.ab-body"
+   },
+   {
+    "value": "84.67",
+    "count": 6,
+    "sample": "h2.disp.ab-title"
+   },
+   {
+    "value": "66.24",
+    "count": 6,
+    "sample": "span.disp.trav-name"
+   },
+   {
+    "value": "13",
+    "count": 4,
+    "sample": "a.lab.nav-cta.cta-wired"
+   },
+   {
+    "value": "22.68",
+    "count": 2,
+    "sample": "p"
+   },
+   {
+    "value": "17.6",
+    "count": 2,
+    "sample": "span.lab.ab-photo-meta"
+   },
+   {
+    "value": "33.6",
+    "count": 2,
+    "sample": "p.trav-note"
+   },
+   {
+    "value": "29",
+    "count": 1,
+    "sample": "a.logo"
+   },
+   {
+    "value": "272.16",
+    "count": 1,
+    "sample": "h1.disp.ab-hero-word"
+   },
+   {
+    "value": "48.96",
+    "count": 1,
+    "sample": "div.ab-hero-sig"
+   }
+  ],
+  "letterSpacing": [
+   {
+    "value": "0px",
+    "count": 422,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "0.33px",
+    "count": 14,
+    "sample": "figcaption.trav-cap"
+   },
+   {
+    "value": "2.08px",
+    "count": 8,
+    "sample": "span.lab.h-link"
+   },
+   {
+    "value": "2.16px",
+    "count": 8,
+    "sample": "div.lab.trav-coords"
+   },
+   {
+    "value": "1.8px",
+    "count": 7,
+    "sample": "span.lab.ab-index"
+   },
+   {
+    "value": "1.56px",
+    "count": 5,
+    "sample": "span.lab"
+   },
+   {
+    "value": "1.82px",
+    "count": 4,
+    "sample": "a.lab.nav-cta.cta-wired"
+   },
+   {
+    "value": "1.76px",
+    "count": 2,
+    "sample": "span.lab.ab-photo-meta"
+   },
+   {
+    "value": "1.6px",
+    "count": 2,
+    "sample": "span.lab.next-tag"
+   },
+   {
+    "value": "1.2px",
+    "count": 1,
+    "sample": "div.lab.ab-hero-kicker"
+   }
+  ],
+  "loadedFaces": [
+   "goldenbook 600 normal",
+   "goldenbook 300 normal",
+   "goldenbook 400 normal",
+   "goldenbook 700 normal",
+   "orpheuspro 400 normal",
+   "Cormorant 300 normal",
+   "Cormorant 400 normal",
+   "Cormorant 300 italic",
+   "Cormorant 400 italic",
+   "Pinyon Script 400 normal",
+   "Italiana 400 normal",
+   "Hanken Grotesk Variable 100 900 normal"
+  ],
+  "bodyMeasureChars": 95
+ },
+ "color": {
+  "text": [
+   {
+    "value": "rgb(244, 239, 228)",
+    "count": 26,
+    "sample": "span.lab.h-link"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.52)",
+    "count": 14,
+    "sample": "figcaption.trav-cap"
+   },
+   {
+    "value": "rgb(154, 143, 124)",
+    "count": 11,
+    "sample": "div.lab.ab-hero-kicker"
+   },
+   {
+    "value": "rgb(171, 24, 44)",
+    "count": 8,
+    "sample": "span.lab.ab-index"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.82)",
+    "count": 6,
+    "sample": "p.ab-body"
+   },
+   {
+    "value": "rgb(138, 129, 116)",
+    "count": 4,
+    "sample": "span.lab"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.6)",
+    "count": 2,
+    "sample": "p"
+   },
+   {
+    "value": "rgb(138, 132, 116)",
+    "count": 2,
+    "sample": "span.lab.ab-photo-meta"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.62)",
+    "count": 2,
+    "sample": "p.trav-note"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.5)",
+    "count": 1,
+    "sample": "p.ab-preface"
+   }
+  ],
+  "background": [
+   {
+    "value": "rgb(28, 24, 19)",
+    "count": 109,
+    "sample": "img.ab-hero-photo"
+   },
+   {
+    "value": "rgb(244, 239, 228)",
+    "count": 2,
+    "sample": "span"
+   }
+  ],
+  "border": [
+   {
+    "value": "rgba(244, 239, 228, 0.14)",
+    "count": 2,
+    "sample": "a.close-row.close-row--next"
+   },
+   {
+    "value": "rgb(244, 239, 228)",
+    "count": 1,
+    "sample": "a.lab.nav-cta.cta-wired"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.28)",
+    "count": 1,
+    "sample": "button.ab-peek"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.1)",
+    "count": 1,
+    "sample": "div.ab-foot"
+   }
+  ]
+ },
+ "spacing": {
+  "margins_padding": [
+   {
+    "value": "57.6px",
+    "count": 21,
+    "sample": "section.ab-hero"
+   },
+   {
+    "value": "13px",
+    "count": 14,
+    "sample": "figcaption.trav-cap"
+   },
+   {
+    "value": "81px",
+    "count": 13,
+    "sample": "div.trav-pin"
+   },
+   {
+    "value": "99px",
+    "count": 10,
+    "sample": "section.ab-block"
+   },
+   {
+    "value": "10px",
+    "count": 8,
+    "sample": "a.lab.nav-cta.cta-wired"
+   },
+   {
+    "value": "14px",
+    "count": 8,
+    "sample": "h2.disp.ab-title"
+   },
+   {
+    "value": "36px",
+    "count": 7,
+    "sample": "p.ab-body"
+   },
+   {
+    "value": "31.5px",
+    "count": 6,
+    "sample": "div.trav-intro.trav-intro--wide"
+   },
+   {
+    "value": "23.4px",
+    "count": 4,
+    "sample": "a.close-row.close-row--next"
+   },
+   {
+    "value": "16px",
+    "count": 2,
+    "sample": "figcaption.ab-photo-cap"
+   },
+   {
+    "value": "2px",
+    "count": 2,
+    "sample": "a"
+   },
+   {
+    "value": "54px",
+    "count": 2,
+    "sample": "section.ab-peekwrap"
+   },
+   {
+    "value": "15px",
+    "count": 2,
+    "sample": "button.ab-peek"
+   },
+   {
+    "value": "144px",
+    "count": 2,
+    "sample": "section.ab-block"
+   },
+   {
+    "value": "24px",
+    "count": 1,
+    "sample": "header.site.nav-on-dark"
+   },
+   {
+    "value": "9px",
+    "count": 1,
+    "sample": "a.logo"
+   },
+   {
+    "value": "22px",
+    "count": 1,
+    "sample": "a.lab.nav-cta.cta-wired"
+   },
+   {
+    "value": "28px",
+    "count": 1,
+    "sample": "button.ab-peek"
+   },
+   {
+    "value": "27px",
+    "count": 1,
+    "sample": "p.ab-early-cap.lab"
+   },
+   {
+    "value": "126px",
+    "count": 1,
+    "sample": "section.ab-onward"
+   },
+   {
+    "value": "40.5px",
+    "count": 1,
+    "sample": "div.lab.ab-onward-kick"
+   },
+   {
+    "value": "63px",
+    "count": 1,
+    "sample": "div.ab-foot"
+   }
+  ],
+  "gaps": [
+   {
+    "value": "8px",
+    "count": 6,
+    "sample": "div.trav-head"
+   },
+   {
+    "value": "25.92px",
+    "count": 6,
+    "sample": "div.trav-row"
+   },
+   {
+    "value": "57.6px",
+    "count": 2,
+    "sample": "div.trav-intro.trav-intro--wide"
+   },
+   {
+    "value": "24px",
+    "count": 2,
+    "sample": "a.close-row.close-row--next"
+   },
+   {
+    "value": "22px",
+    "count": 1,
+    "sample": "div.h-left"
+   },
+   {
+    "value": "10px",
+    "count": 1,
+    "sample": "button#menuOpen.menu-btn"
+   },
+   {
+    "value": "4px",
+    "count": 1,
+    "sample": "span.bars"
+   },
+   {
+    "value": "21.6px",
+    "count": 1,
+    "sample": "div.h-right.h-actions"
+   },
+   {
+    "value": "54px",
+    "count": 1,
+    "sample": "div.ab-hero-foot"
+   },
+   {
+    "value": "12px",
+    "count": 1,
+    "sample": "button.ab-peek"
+   },
+   {
+    "value": "11.52px",
+    "count": 1,
+    "sample": "div.ab-early-grid"
+   },
+   {
+    "value": "7px",
+    "count": 1,
+    "sample": "div.ab-foot"
+   }
+  ]
+ },
+ "shape": {
+  "radii": [
+   {
+    "value": "pill (>=9999px)",
+    "count": 2,
+    "sample": "a.lab.nav-cta.cta-wired"
+   },
+   {
+    "value": "2px",
+    "count": 1,
+    "sample": "a.lab.h-login.h-login--desk"
+   }
+  ],
+  "borders": [
+   {
+    "value": "1px solid",
+    "count": 5,
+    "sample": "a.lab.nav-cta.cta-wired"
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.5) 0px 30px 90px 0px",
+    "count": 3,
+    "sample": "div.ab-photo"
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.55) 0px 40px 120px 0px",
+    "count": 1,
+    "sample": "img.ab-hero-photo"
+   }
+  ]
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.6s",
+    "count": 102,
+    "sample": "img"
+   },
+   {
+    "value": "0.3s",
+    "count": 7,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "0.5s",
+    "count": 3,
+    "sample": "header.site.nav-on-dark"
+   },
+   {
+    "value": "0.62s",
+    "count": 3,
+    "sample": "div.h-left"
+   },
+   {
+    "value": "0.35s",
+    "count": 3,
+    "sample": "a.lab.nav-cta.cta-wired"
+   },
+   {
+    "value": "0.4s",
+    "count": 1,
+    "sample": "span.ab-peek-face"
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 114,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "count": 5,
+    "sample": "div.h-left"
+   }
+  ],
+  "keyframeAnimations": []
+ },
+ "layout": {
+  "breakpoints": [
+   "300px",
+   "340px",
+   "420px",
+   "480px",
+   "520px",
+   "560px",
+   "600px",
+   "640px",
+   "641px",
+   "680px",
+   "699px",
+   "700px",
+   "720px",
+   "760px",
+   "820px",
+   "860px",
+   "861px",
+   "880px",
+   "1024px"
+  ],
+  "containerMaxWidths": [
+   {
+    "value": "800px",
+    "count": 5,
+    "sample": "p.ab-body"
+   },
+   {
+    "value": "440px",
+    "count": 2,
+    "sample": "figure.ab-photo-fig"
+   },
+   {
+    "value": "480px",
+    "count": 1,
+    "sample": "p.ab-early-cap.lab"
+   },
+   {
+    "value": "560px",
+    "count": 1,
+    "sample": "figure.ab-photo-fig"
+   },
+   {
+    "value": "870px",
+    "count": 1,
+    "sample": "p.ab-body"
+   },
+   {
+    "value": "1360px",
+    "count": 1,
+    "sample": "section.ab-onward"
+   }
+  ],
+  "gridTemplates": [
+   {
+    "value": "12 cols — 110.391px 110.391px 110.391px 110.391px 110.391px 110.391px ",
+    "count": 7,
+    "sample": "section.ab-block"
+   },
+   {
+    "value": "3 cols — 650.594px 90.8125px 650.594px",
+    "count": 1,
+    "sample": "header.site.nav-on-dark"
+   },
+   {
+    "value": "2 cols — 316.766px 950.453px",
+    "count": 1,
+    "sample": "div.trav-intro.trav-intro--wide"
+   },
+   {
+    "value": "7 cols — 147.844px 147.844px 147.844px 147.844px 147.844px 147.844px ",
+    "count": 1,
+    "sample": "div.ab-early-grid"
+   },
+   {
+    "value": "2 cols — 725.672px 541.547px",
+    "count": 1,
+    "sample": "div.trav-intro.trav-intro--wide"
+   }
+  ],
+  "zIndexLayers": [
+   {
+    "value": "2",
+    "count": 12,
+    "sample": "div.lab.ab-hero-kicker"
+   },
+   {
+    "value": "1",
+    "count": 2,
+    "sample": "span.cta-roll"
+   },
+   {
+    "value": "60",
+    "count": 1,
+    "sample": "header.site.nav-on-dark"
+   }
+  ],
+  "hasHorizontalOverflow": false,
+  "widestNode": "figure.trav-cell right=15529"
+ }
+}

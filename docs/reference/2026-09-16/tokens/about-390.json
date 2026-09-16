@@ -1,0 +1,892 @@
+{
+ "meta": {
+  "url": "https://ethanwong.photography/about",
+  "title": "About · Ethan W · Wedding & Editorial Photographer, Washington DC & New York",
+  "capturedAt": "2026-09-16T12:51:01.966Z",
+  "viewport": {
+   "w": 390,
+   "h": 844,
+   "dpr": 1
+  },
+  "viewportSuspect": null,
+  "scrollHeight": 11189,
+  "elementsMeasured": 1683,
+  "blockedStylesheets": 1,
+  "colorScheme": "normal",
+  "prefersDark": false
+ },
+ "typography": {
+  "combos": [
+   {
+    "value": "17.16px / 400 / 25.74 / 0px",
+    "count": 325,
+    "sample": "span.ab-word"
+   },
+   {
+    "value": "18px / 400 / 27 / 0px",
+    "count": 65,
+    "sample": "span.ab-word"
+   },
+   {
+    "value": "12px / 400 / 18.6 / 0.36px",
+    "count": 14,
+    "sample": "figcaption.trav-cap"
+   },
+   {
+    "value": "12px / 400 / normal / 2.16px",
+    "count": 8,
+    "sample": "div.lab.trav-coords"
+   },
+   {
+    "value": "11px / 400 / normal / 1.98px",
+    "count": 6,
+    "sample": "span.lab.ab-index"
+   },
+   {
+    "value": "52.65px / 300 / 49.49 / -0.53px",
+    "count": 6,
+    "sample": "h2.disp.ab-title"
+   },
+   {
+    "value": "42.9px / 300 / 42.9 / 0px",
+    "count": 6,
+    "sample": "span.disp.trav-name"
+   },
+   {
+    "value": "9.5px / 500 / 9.5 / 1.14px",
+    "count": 5,
+    "sample": "span.lab.dock-lab"
+   },
+   {
+    "value": "13px / 300 / normal / 1.56px",
+    "count": 4,
+    "sample": "span.lab"
+   },
+   {
+    "value": "14px / 300 / 21 / 0px",
+    "count": 2,
+    "sample": "p"
+   },
+   {
+    "value": "11px / 400 / 17.6 / 1.76px",
+    "count": 2,
+    "sample": "span.lab.ab-photo-meta"
+   },
+   {
+    "value": "15px / 500 / 22.5 / 0px",
+    "count": 2,
+    "sample": "p.trav-note"
+   },
+   {
+    "value": "10px / 400 / normal / 1.6px",
+    "count": 2,
+    "sample": "span.lab.next-tag"
+   },
+   {
+    "value": "29px / 400 / 29 / 0px",
+    "count": 1,
+    "sample": "a.logo"
+   },
+   {
+    "value": "13px / 300 / normal / 2.08px",
+    "count": 1,
+    "sample": "a.lab.h-login.h-login--phone"
+   },
+   {
+    "value": "11px / 400 / normal / 1.1px",
+    "count": 1,
+    "sample": "div.lab.ab-hero-kicker"
+   },
+   {
+    "value": "105.3px / 300 / 94.77 / 0px",
+    "count": 1,
+    "sample": "h1.disp.ab-hero-word"
+   },
+   {
+    "value": "30px / 400 / 30 / 0px",
+    "count": 1,
+    "sample": "div.ab-hero-sig"
+   },
+   {
+    "value": "15px / 300 / normal / 0px",
+    "count": 1,
+    "sample": "p.ab-preface"
+   },
+   {
+    "value": "13px / 400 / normal / 2.08px",
+    "count": 1,
+    "sample": "span.ab-peek-label"
+   },
+   {
+    "value": "16px / 400 / 16 / 2.08px",
+    "count": 1,
+    "sample": "span.ab-peek-face"
+   },
+   {
+    "value": "12px / 400 / normal / 1.44px",
+    "count": 1,
+    "sample": "p.ab-early-cap.lab"
+   },
+   {
+    "value": "10px / 400 / normal / 1.8px",
+    "count": 1,
+    "sample": "div.lab.ab-onward-kick"
+   }
+  ],
+  "families": [
+   {
+    "value": "Cormorant",
+    "count": 429,
+    "sample": "p.ab-preface"
+   },
+   {
+    "value": "Hanken Grotesk",
+    "count": 427,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "goldenbook",
+    "count": 49,
+    "sample": "h1.disp.ab-hero-word"
+   },
+   {
+    "value": "Pinyon Script",
+    "count": 2,
+    "sample": "a.logo"
+   }
+  ],
+  "sizes": [
+   {
+    "value": "17.16px",
+    "count": 325,
+    "sample": "span.ab-word"
+   },
+   {
+    "value": "18px",
+    "count": 65,
+    "sample": "span.ab-word"
+   },
+   {
+    "value": "12px",
+    "count": 23,
+    "sample": "div.lab.trav-coords"
+   },
+   {
+    "value": "11px",
+    "count": 9,
+    "sample": "div.lab.ab-hero-kicker"
+   },
+   {
+    "value": "13px",
+    "count": 6,
+    "sample": "a.lab.h-login.h-login--phone"
+   },
+   {
+    "value": "52.65px",
+    "count": 6,
+    "sample": "h2.disp.ab-title"
+   },
+   {
+    "value": "42.9px",
+    "count": 6,
+    "sample": "span.disp.trav-name"
+   },
+   {
+    "value": "9.5px",
+    "count": 5,
+    "sample": "span.lab.dock-lab"
+   },
+   {
+    "value": "15px",
+    "count": 3,
+    "sample": "p.ab-preface"
+   },
+   {
+    "value": "10px",
+    "count": 3,
+    "sample": "div.lab.ab-onward-kick"
+   },
+   {
+    "value": "14px",
+    "count": 2,
+    "sample": "p"
+   },
+   {
+    "value": "29px",
+    "count": 1,
+    "sample": "a.logo"
+   },
+   {
+    "value": "105.3px",
+    "count": 1,
+    "sample": "h1.disp.ab-hero-word"
+   },
+   {
+    "value": "30px",
+    "count": 1,
+    "sample": "div.ab-hero-sig"
+   },
+   {
+    "value": "16px",
+    "count": 1,
+    "sample": "span.ab-peek-face"
+   }
+  ],
+  "weights": [
+   {
+    "value": "400",
+    "count": 842,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "300",
+    "count": 58,
+    "sample": "a.lab.h-login.h-login--phone"
+   },
+   {
+    "value": "500",
+    "count": 7,
+    "sample": "p.trav-note"
+   }
+  ],
+  "lineHeights": [
+   {
+    "value": "25.74",
+    "count": 349,
+    "sample": "p.ab-body"
+   },
+   {
+    "value": "27",
+    "count": 75,
+    "sample": "p.ab-body"
+   },
+   {
+    "value": "36.1",
+    "count": 36,
+    "sample": "span.disp"
+   },
+   {
+    "value": "18.6",
+    "count": 14,
+    "sample": "figcaption.trav-cap"
+   },
+   {
+    "value": "49.49",
+    "count": 6,
+    "sample": "h2.disp.ab-title"
+   },
+   {
+    "value": "42.9",
+    "count": 6,
+    "sample": "span.disp.trav-name"
+   },
+   {
+    "value": "9.5",
+    "count": 5,
+    "sample": "span.lab.dock-lab"
+   },
+   {
+    "value": "21",
+    "count": 2,
+    "sample": "p"
+   },
+   {
+    "value": "17.6",
+    "count": 2,
+    "sample": "span.lab.ab-photo-meta"
+   },
+   {
+    "value": "22.5",
+    "count": 2,
+    "sample": "p.trav-note"
+   },
+   {
+    "value": "29",
+    "count": 1,
+    "sample": "a.logo"
+   },
+   {
+    "value": "94.77",
+    "count": 1,
+    "sample": "h1.disp.ab-hero-word"
+   }
+  ],
+  "letterSpacing": [
+   {
+    "value": "0px",
+    "count": 852,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "0.36px",
+    "count": 14,
+    "sample": "figcaption.trav-cap"
+   },
+   {
+    "value": "2.16px",
+    "count": 8,
+    "sample": "div.lab.trav-coords"
+   },
+   {
+    "value": "1.98px",
+    "count": 6,
+    "sample": "span.lab.ab-index"
+   },
+   {
+    "value": "-0.53px",
+    "count": 6,
+    "sample": "h2.disp.ab-title"
+   },
+   {
+    "value": "1.56px",
+    "count": 5,
+    "sample": "span.lab"
+   },
+   {
+    "value": "1.14px",
+    "count": 5,
+    "sample": "span.lab.dock-lab"
+   },
+   {
+    "value": "2.08px",
+    "count": 4,
+    "sample": "a.lab.h-login.h-login--phone"
+   },
+   {
+    "value": "1.76px",
+    "count": 2,
+    "sample": "span.lab.ab-photo-meta"
+   },
+   {
+    "value": "1.6px",
+    "count": 2,
+    "sample": "span.lab.next-tag"
+   }
+  ],
+  "loadedFaces": [
+   "goldenbook 600 normal",
+   "goldenbook 300 normal",
+   "goldenbook 400 normal",
+   "goldenbook 700 normal",
+   "orpheuspro 400 normal",
+   "Cormorant 300 normal",
+   "Cormorant 400 normal",
+   "Cormorant 300 italic",
+   "Cormorant 400 italic",
+   "Pinyon Script 400 normal",
+   "Italiana 400 normal",
+   "Hanken Grotesk Variable 100 900 normal"
+  ],
+  "bodyMeasureChars": 49
+ },
+ "color": {
+  "text": [
+   {
+    "value": "rgba(244, 239, 228, 0.82)",
+    "count": 388,
+    "sample": "span.ab-word"
+   },
+   {
+    "value": "rgb(244, 239, 228)",
+    "count": 21,
+    "sample": "a.logo"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.52)",
+    "count": 14,
+    "sample": "figcaption.trav-cap"
+   },
+   {
+    "value": "rgb(154, 143, 124)",
+    "count": 11,
+    "sample": "div.lab.ab-hero-kicker"
+   },
+   {
+    "value": "rgb(171, 24, 44)",
+    "count": 8,
+    "sample": "span.lab.ab-index"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.6)",
+    "count": 5,
+    "sample": "p"
+   },
+   {
+    "value": "rgb(138, 129, 116)",
+    "count": 4,
+    "sample": "span.lab"
+   },
+   {
+    "value": "rgb(138, 132, 116)",
+    "count": 2,
+    "sample": "span.lab.ab-photo-meta"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.62)",
+    "count": 2,
+    "sample": "p.trav-note"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.5)",
+    "count": 1,
+    "sample": "p.ab-preface"
+   },
+   {
+    "value": "rgb(255, 255, 255)",
+    "count": 1,
+    "sample": "span.lab.dock-lab"
+   }
+  ],
+  "background": [
+   {
+    "value": "rgb(28, 24, 19)",
+    "count": 109,
+    "sample": "img.ab-hero-photo"
+   },
+   {
+    "value": "rgba(17, 15, 13, 0.4)",
+    "count": 1,
+    "sample": "nav.dock.dock-in"
+   },
+   {
+    "value": "rgba(17, 15, 13, 0.5)",
+    "count": 1,
+    "sample": "div.dock-main"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.12)",
+    "count": 1,
+    "sample": "span.dock-lens.on"
+   },
+   {
+    "value": "rgb(171, 24, 44)",
+    "count": 1,
+    "sample": "a.dock-cta"
+   }
+  ],
+  "border": [
+   {
+    "value": "rgba(244, 239, 228, 0.14)",
+    "count": 2,
+    "sample": "a.close-row.close-row--next"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.28)",
+    "count": 1,
+    "sample": "button.ab-peek"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.1)",
+    "count": 1,
+    "sample": "div.ab-foot"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.09)",
+    "count": 1,
+    "sample": "nav.dock.dock-in"
+   },
+   {
+    "value": "rgba(244, 239, 228, 0.13)",
+    "count": 1,
+    "sample": "div.dock-main"
+   }
+  ]
+ },
+ "spacing": {
+  "margins_padding": [
+   {
+    "value": "27.3px",
+    "count": 19,
+    "sample": "section.ab-block"
+   },
+   {
+    "value": "11px",
+    "count": 14,
+    "sample": "figcaption.trav-cap"
+   },
+   {
+    "value": "46.42px",
+    "count": 12,
+    "sample": "div.trav-pin"
+   },
+   {
+    "value": "71.74px",
+    "count": 10,
+    "sample": "section.ab-block"
+   },
+   {
+    "value": "21.94px",
+    "count": 10,
+    "sample": "p.ab-body"
+   },
+   {
+    "value": "25.32px",
+    "count": 7,
+    "sample": "div.trav-intro.trav-intro--wide"
+   },
+   {
+    "value": "14px",
+    "count": 6,
+    "sample": "h2.disp.ab-title"
+   },
+   {
+    "value": "6px",
+    "count": 5,
+    "sample": "div.dock-main"
+   },
+   {
+    "value": "10px",
+    "count": 4,
+    "sample": "span.lab.ab-photo-meta"
+   },
+   {
+    "value": "37.98px",
+    "count": 3,
+    "sample": "figure.ab-photo-fig"
+   },
+   {
+    "value": "12px",
+    "count": 3,
+    "sample": "div.lab.trav-coords"
+   },
+   {
+    "value": "15.6px",
+    "count": 2,
+    "sample": "section.ab-hero"
+   },
+   {
+    "value": "16px",
+    "count": 2,
+    "sample": "figcaption.ab-photo-cap"
+   },
+   {
+    "value": "20.26px",
+    "count": 2,
+    "sample": "div.trav-meta"
+   },
+   {
+    "value": "8px",
+    "count": 2,
+    "sample": "p.trav-note"
+   },
+   {
+    "value": "2px",
+    "count": 2,
+    "sample": "a"
+   },
+   {
+    "value": "15px",
+    "count": 2,
+    "sample": "button.ab-peek"
+   },
+   {
+    "value": "92.84px",
+    "count": 2,
+    "sample": "section.ab-block"
+   },
+   {
+    "value": "33.76px",
+    "count": 2,
+    "sample": "figure.ab-photo-fig"
+   },
+   {
+    "value": "24px",
+    "count": 1,
+    "sample": "header.site.nav-on-dark"
+   },
+   {
+    "value": "9px",
+    "count": 1,
+    "sample": "a.logo"
+   },
+   {
+    "value": "42.2px",
+    "count": 1,
+    "sample": "section.ab-peekwrap"
+   },
+   {
+    "value": "28px",
+    "count": 1,
+    "sample": "button.ab-peek"
+   },
+   {
+    "value": "118.16px",
+    "count": 1,
+    "sample": "section.ab-onward"
+   },
+   {
+    "value": "75.96px",
+    "count": 1,
+    "sample": "section.ab-onward"
+   },
+   {
+    "value": "59.08px",
+    "count": 1,
+    "sample": "div.ab-foot"
+   },
+   {
+    "value": "96px",
+    "count": 1,
+    "sample": "div.ab-foot"
+   }
+  ],
+  "gaps": [
+   {
+    "value": "6px",
+    "count": 7,
+    "sample": "div.trav-head"
+   },
+   {
+    "value": "12px",
+    "count": 7,
+    "sample": "div.trav-row"
+   },
+   {
+    "value": "4px",
+    "count": 5,
+    "sample": "a.dock-tab"
+   },
+   {
+    "value": "28px",
+    "count": 2,
+    "sample": "div.trav-intro.trav-intro--wide"
+   },
+   {
+    "value": "24px",
+    "count": 2,
+    "sample": "a.close-row.close-row--next"
+   },
+   {
+    "value": "11px",
+    "count": 1,
+    "sample": "div.h-right.h-actions"
+   },
+   {
+    "value": "14px",
+    "count": 1,
+    "sample": "div.ab-hero-foot"
+   },
+   {
+    "value": "7px",
+    "count": 1,
+    "sample": "div.ab-foot"
+   }
+  ]
+ },
+ "shape": {
+  "radii": [
+   {
+    "value": "pill (>=9999px)",
+    "count": 9,
+    "sample": "button.ab-peek"
+   },
+   {
+    "value": "2px",
+    "count": 1,
+    "sample": "a.lab.h-login.h-login--phone"
+   }
+  ],
+  "borders": [
+   {
+    "value": "1px solid",
+    "count": 6,
+    "sample": "button.ab-peek"
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.5) 0px 30px 90px 0px",
+    "count": 3,
+    "sample": "div.ab-photo"
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.55) 0px 40px 120px 0px",
+    "count": 1,
+    "sample": "img.ab-hero-photo"
+   },
+   {
+    "value": "rgba(10, 9, 8, 0.4) 0px 18px 44px 0px",
+    "count": 1,
+    "sample": "nav.dock.dock-in"
+   },
+   {
+    "value": "rgba(8, 7, 6, 0.4) 5px 0px 20px 0px, rgba(255, 255, 255, 0.12) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.22) 0px -1px 0px 0",
+    "count": 1,
+    "sample": "div.dock-main"
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.1) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.14) 0px -1px 0px 0px inset",
+    "count": 1,
+    "sample": "span.dock-lens.on"
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.18) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset",
+    "count": 1,
+    "sample": "a.dock-cta"
+   }
+  ]
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.6s",
+    "count": 103,
+    "sample": "img"
+   },
+   {
+    "value": "0.3s",
+    "count": 8,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "0.35s",
+    "count": 6,
+    "sample": "a.close-row.close-row--next"
+   },
+   {
+    "value": "0.62s",
+    "count": 2,
+    "sample": "a.logo"
+   },
+   {
+    "value": "0.5s",
+    "count": 1,
+    "sample": "header.site.nav-on-dark"
+   },
+   {
+    "value": "0.4s",
+    "count": 1,
+    "sample": "span.ab-peek-face"
+   },
+   {
+    "value": "0.7s",
+    "count": 1,
+    "sample": "nav.dock.dock-in"
+   },
+   {
+    "value": "0.42s",
+    "count": 1,
+    "sample": "span.dock-lens.on"
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 120,
+    "sample": "div.page-shell"
+   },
+   {
+    "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "count": 2,
+    "sample": "a.logo"
+   },
+   {
+    "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "count": 1,
+    "sample": "span.dock-lens.on"
+   }
+  ],
+  "keyframeAnimations": []
+ },
+ "layout": {
+  "breakpoints": [
+   "300px",
+   "340px",
+   "420px",
+   "480px",
+   "520px",
+   "560px",
+   "600px",
+   "640px",
+   "641px",
+   "680px",
+   "699px",
+   "700px",
+   "720px",
+   "760px",
+   "820px",
+   "860px",
+   "861px",
+   "880px",
+   "1024px"
+  ],
+  "containerMaxWidths": [
+   {
+    "value": "440px",
+    "count": 2,
+    "sample": "figure.ab-photo-fig"
+   },
+   {
+    "value": "480px",
+    "count": 1,
+    "sample": "p.ab-early-cap.lab"
+   },
+   {
+    "value": "560px",
+    "count": 1,
+    "sample": "figure.ab-photo-fig"
+   },
+   {
+    "value": "540px",
+    "count": 1,
+    "sample": "p.ab-body"
+   },
+   {
+    "value": "1360px",
+    "count": 1,
+    "sample": "section.ab-onward"
+   }
+  ],
+  "gridTemplates": [
+   {
+    "value": "3 cols — auto minmax(0px, 1fr)",
+    "count": 2,
+    "sample": "div.trav-intro.trav-intro--wide"
+   },
+   {
+    "value": "3 cols — 125.594px 90.8125px 125.594px",
+    "count": 1,
+    "sample": "header.site.nav-on-dark"
+   },
+   {
+    "value": "3 cols — 107.797px 107.797px 107.812px",
+    "count": 1,
+    "sample": "div.ab-early-grid"
+   },
+   {
+    "value": "2 cols — repeat(12, 1fr)",
+    "count": 1,
+    "sample": "section.ab-block"
+   }
+  ],
+  "zIndexLayers": [
+   {
+    "value": "2",
+    "count": 12,
+    "sample": "div.lab.ab-hero-kicker"
+   },
+   {
+    "value": "1",
+    "count": 5,
+    "sample": "h1.disp.ab-hero-word"
+   },
+   {
+    "value": "60",
+    "count": 1,
+    "sample": "header.site.nav-on-dark"
+   },
+   {
+    "value": "46",
+    "count": 1,
+    "sample": "nav.dock.dock-in"
+   },
+   {
+    "value": "0",
+    "count": 1,
+    "sample": "span.dock-lens.on"
+   }
+  ],
+  "hasHorizontalOverflow": false,
+  "widestNode": "figure.trav-cell right=8439"
+ }
+}

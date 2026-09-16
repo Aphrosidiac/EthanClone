@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import body from '../fragments/commercial-photographer-dc.html?raw';
+import '../styles/pages/svc.css';
+import pages from '../data/pages.json';
+const p = pages.find((x) => x.slug === 'commercial-photographer-dc')!;
+---
+<Base title={p.title} description={p.description} path="/commercial-photographer-dc" cursor="menu" navTheme="dark" back={{ href: "/", label: "← Home" }} ogImage="/img/commercial/rooftop-pool-w1200.webp">
+  
+  <Fragment set:html={body} />
+  <script>
+    import '../scripts/pages/svc';
+  </script>
+</Base>

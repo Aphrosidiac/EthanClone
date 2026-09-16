@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import body from '../fragments/editorials.html?raw';
+import '../styles/pages/editorials.css';
+import pages from '../data/pages.json';
+const p = pages.find((x) => x.slug === 'editorials')!;
+---
+<Base title={p.title} description={p.description} path="/editorials" cursor="menu" navTheme="dark" back={{ href: "/", label: "← Home" }} dockActive="galleries" ogImage="/img/editorials/the-heel-w1200.webp">
+  
+  <Fragment set:html={body} />
+  <script>
+    import '../scripts/pages/editorials';
+  </script>
+</Base>

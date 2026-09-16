@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import body from '../fragments/stories.html?raw';
+import '../styles/pages/stories.css';
+import pages from '../data/pages.json';
+const p = pages.find((x) => x.slug === 'stories')!;
+---
+<Base title={p.title} description={p.description} path="/stories" cursor="menu" navTheme="light" back={{ href: "/", label: "← Home" }} dockActive="galleries">
+  <style is:global>.close-row{color:#241a10;transition:color .35s ease,transform .5s cubic-bezier(.22,1,.36,1)}.next-tag{display:block;font-size:var(--lab-quiet);letter-spacing:.16em;color:var(--red);margin-bottom:10px}.close-row--next{align-items:flex-end!important}.close-row:hover{transform:translate(1.1vw)}@media(prefers-reduced-motion:reduce){.close-row:hover{color:var(--red)}}.close-meta{opacity:0;transform:translate(-8px);transition:opacity .4s ease .06s,transform .4s ease .06s}.close-row:hover .close-meta{opacity:1;transform:none}@media(hover:none){.close-meta{opacity:1}}@media(max-width:640px){.close-meta{display:none}}
+</style>
+  <Fragment set:html={body} />
+  <script>
+    import '../scripts/pages/stories';
+  </script>
+</Base>
