@@ -63,7 +63,7 @@
 | ID | Feature | Status | Evidence | Notes |
 | --- | --- | --- | --- | --- |
 | SEO-01 | Per-page meta, OG/Twitter, JSON-LD, favicons, touch icon, OG image | improved | Base.astro emits per-page canonical/OG; FF icons + OG generated | Reference's The Knot/Facebook sameAs dropped; sitemap.xml/robots/llms.txt not generated yet |
-| SEO-02 | sitemap.xml, robots.txt, llms.txt | deferred |  | Local test build; add with the deploy decision |
+| SEO-02 | sitemap.xml, robots.txt, llms.txt | deferred |  | Live at ff-frames.pages.dev without them; add if the demo needs indexing |
 
 ## service pages
 

@@ -87,3 +87,12 @@ message is accepted (frame grew to 1409px after the handshake fix).
 - Real-window motion (60fps feel, Lenis wheel feel, trackpad inertia) not judged by eye in this session —
   the display was asleep; headless captures of mid-animation frames matched.
 - `/inquire/embed` is reachable directly (noindex); the reference's equivalent lives on its portal.
+
+## 2026-09-16 — live deployment (https://ff-frames.pages.dev)
+
+Pushed to github.com/Aphrosidiac/EthanClone (public; the 1.1 GB of screenshot captures were purged from
+history first — regenerable with `tools/capture.mjs`). Deployed by direct upload to CF Pages `ff-frames`
+(3,796 files, 229 s). Smoke test: every route class 200/404 as expected, images and fonts served from our
+origin, the disclaimer present in the HTML. Live capture vs reference: index 0.73, pricing 0.08, weddings
+top 0.19; weddings mid-scroll 10–20 = Lenis/drift tween a few px apart in time over the network (same layout,
+same state — checked side by side).
