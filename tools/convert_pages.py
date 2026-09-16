@@ -57,9 +57,13 @@ BRAND=[
  ('https://instagram.com/ethanwong.photography','https://instagram.com/ffdev.studio'),
  ('ethanwong.photography','ffdev.studio'),
 ]
+DISCLAIMER='<span class="ff-disclaimer">Demo recreation of Ethan Wong Photography · The assets are not ours · Not affiliated · Not a live site</span>'
 def brand(s):
+    # the footer / corner-strip location label becomes the demo disclaimer (tag-bounded, so the
+    # sentence in the legal prose that ends with the same words is left alone)
+    s=s.replace('>Washington DC · New York · Available nationwide<', '>@@DISCLAIMER@@<')
     for a,b in BRAND: s=s.replace(a,b)
-    return s
+    return s.replace('@@DISCLAIMER@@', DISCLAIMER)   # after the identity swap: the owner's name must survive here
 
 def main():
   pages=[]

@@ -1,0 +1,12 @@
+/* FF identity layer — the only styles that are ours. Loaded after the reference stylesheets.
+   The footer / corner location label became the demo disclaimer, which is longer than the
+   reference's copy, so it may wrap where the reference kept a single line. */
+.ff-disclaimer { white-space: normal; }
+.lab:has(> .ff-disclaimer),
+.corner-strip > span:first-child,
+.ed-corners > span:first-child { white-space: normal; }
+.mo-foot > .lab:first-child { flex: 1 1 auto; min-width: 0; }
+/* footer.site centres its "back to top" absolutely; keep the (longer) disclaimer clear of it */
+@media (min-width: 1025px) {
+  footer.site > .lab:has(> .ff-disclaimer) { max-width: 36%; }
+}

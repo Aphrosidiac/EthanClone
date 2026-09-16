@@ -12,5 +12,5 @@ export const site = {
   themeColor: '#efede7',
   ogImage: '/og-image.jpg',
   ogImageAlt: 'FF Dev · Wedding & Editorial Photography · Washington DC & New York',
-  locality: 'Washington DC · New York · Available nationwide',
+  disclaimer: 'Demo recreation of Ethan Wong Photography · The assets are not ours · Not affiliated · Not a live site',
 };

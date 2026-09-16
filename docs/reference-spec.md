@@ -123,7 +123,7 @@ respected. The custom cursor markup is absent so `data-cursor` is inert (kept fo
 | Photography (3,648 renditions), portal form markup + CSS | **theirs**, mirrored for the local test; to be replaced before any public deploy |
 | Stylesheets | theirs verbatim (class names 1:1) — the measurement baseline |
 | Fonts | theirs (Typekit + Google faces), self-hosted |
-| Copy | theirs with names swapped (Ethan W → FF Dev, Ethan Wong → FF, domain/email/instagram → ffdev.studio) |
+| Copy | theirs with names swapped (Ethan W → FF Dev, Ethan Wong → FF, domain/email/instagram → ffdev.studio); the footer/corner location label on every page is now the demo disclaimer naming Ethan Wong Photography (plain text, `src/styles/ff.css` lets it wrap) |
 | Wordmark, favicons, touch icon, OG image | **ours** (generated) |
 | Behaviour | re-implemented in TS from the compiled modules; the pricing calculator is vendored prettified |
 | Analytics, portal endpoints | removed; local event queue; inquiry form runs on our origin and sends nothing |
